@@ -16228,7 +16228,7 @@
 		(layer "Edge.Cuts")
 		(uuid "58f8f57e-7fb0-4e17-a62b-fcf884c999d0")
 	)
-	(gr_text "UNIVERSITY OF KENTUCKY\nKRUPS-FEMTOSAT\nV1 | 10-28-2024\nSERIAL NUMBER:"
+	(gr_text "UNIVERSITY OF KENTUCKY\nKRUPS-FEMTOSAT\nV1.1 | 10-28-2024\nSERIAL NUMBER:"
 		(at 117.475 90.805 0)
 		(layer "B.SilkS")
 		(uuid "0ab630bd-2f37-4aef-af16-09d8afffc7e6")
