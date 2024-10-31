@@ -1,5 +1,5 @@
-PCB Version,V1,,,,
-BOM Last Updated Date,10/28/24,,,,
+PCB Version,V1.1,,,,
+BOM Last Updated Date,10/31/24,,,,
 ,,,,,
 Reference,Description,Manufacturer / Part Number,Qty,Ordering Link,
 "C1,C7,C8,C14","22uF, 10V, X5R, SMD 0805",CL21A226MPQNNNE,4,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A226MPQNNNE/3888568,
@@ -21,7 +21,7 @@ R8,"270 OHM, 5%, 1/10W, SMD 0603",RMCF0603JT270R,1,https://www.digikey.com/en/pr
 SW1,DIP Switch,Same Sky \ DS04-254-1L-01BK,1,https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/DS04-254-1L-01BK/11310927,
 "SW2,SW3","SPDT Push Switch, Non-Latching",E-Switch \ LC1258OANP,2,https://www.digikey.com/en/products/detail/e-switch/LC1258OANP/1804896,
 U1,BME280 Environmental Sensor,Bosch Sensortec \ BME280,1,https://www.digikey.com/en/products/detail/bosch-sensortec/BME280/6136306,
-U2,"ESP32-S3-WROOM-1U, 16MB Flash, 8MB PSRAM",Espressif \ ESP32-S3-WROOM-1U-N16R8,1,https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1U-N16R8/16162641,
+U2,"ESP32-S3-WROOM-2, 32MB Flash, 8MB PSRAM",Espressif \ ESP32-S3-WROOM-2-N32R8V,1,https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-2-N32R8V/15970964,
 U3,6.5V – 28V DC DC Converter,Traco Power \ TSR 2-2450,1,https://www.digikey.com/en/products/detail/traco-power/TSR-2-2450/9383726,
 U4,TPS61023 Boost Converter,Texas Instruments \ TPS61023DRLR,1,https://www.digikey.com/en/products/detail/texas-instruments/TPS61023DRLR/11310629,
 U5,E22-900M33S 2W LoRa Module,EBYTE \ E22-900M33S,1,https://www.lcsc.com/product-detail/LoRa-Modules_Chengdu-Ebyte-Elec-Tech-E22-900M33S_C22399506.html,An alternative option is https://www.aliexpress.us/item/3256806595412116.html

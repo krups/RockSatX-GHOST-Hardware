@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 4.5,
-          "width": 4.5
+          "drill": 0.0,
+          "height": 0.9,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -511,10 +511,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "E:/Storage/GitHub/KRUPS-FemtoSat/Generated Files/",
+      "plot": "../Documentation/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../Generated Files/FemtoSat_3DModel.step",
+      "step": "../Documentation/FemtoSat_3DModel.step",
       "svg": "",
       "vrml": ""
     },
@@ -663,7 +663,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../Documentation/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
