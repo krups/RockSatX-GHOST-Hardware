@@ -15,6 +15,7 @@ PCB design files and documentation for the femto-satellites used in the Universi
 | --- | --- |
 | IO1 | LORA_TXEN |
 | IO2 | LORA_RXEN |
+| IO3 | SPI_NSS |
 | IO4 | BNO086_HINTN |
 | IO5 | BNO086_RESET (active low)|
 | IO6 | I2C_SCL |

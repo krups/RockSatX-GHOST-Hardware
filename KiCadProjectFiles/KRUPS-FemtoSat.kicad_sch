@@ -5,8 +5,8 @@
 	(uuid "b0dcfc14-9606-45df-8d55-b7b091984c61")
 	(paper "A4")
 	(title_block
-		(date "2024-11-10")
-		(rev "V2")
+		(date "2024-11-11")
+		(rev "V3")
 	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch_MountingPin"
@@ -6396,10 +6396,6 @@
 		(uuid "025085de-8292-4a7f-a210-7d1970df5641")
 	)
 	(no_connect
-		(at 127 59.69)
-		(uuid "083c5219-8a6c-4e42-99ce-1bb40f9008e5")
-	)
-	(no_connect
 		(at 152.4 62.23)
 		(uuid "135da9a5-4d41-45e5-bd0f-23151986c01e")
 	)
@@ -6424,10 +6420,6 @@
 		(uuid "31fd5f71-5365-4764-be2a-d6ec80ed7a8c")
 	)
 	(no_connect
-		(at 127 46.99)
-		(uuid "3d253dea-695a-44e5-9472-33fb06dd4632")
-	)
-	(no_connect
 		(at 152.4 72.39)
 		(uuid "530c6726-9b15-4f8a-af6d-2b6a280d6d20")
 	)
@@ -6450,6 +6442,10 @@
 	(no_connect
 		(at 152.4 54.61)
 		(uuid "91840b30-f451-4405-a8ba-8117ac819197")
+	)
+	(no_connect
+		(at 127 59.69)
+		(uuid "969c953d-4586-44f9-8033-c896fd07b1bd")
 	)
 	(no_connect
 		(at 152.4 69.85)
@@ -6744,16 +6740,6 @@
 			(type default)
 		)
 		(uuid "30724a2a-cdbd-417e-b529-5ce008d3822a")
-	)
-	(wire
-		(pts
-			(xy 156.21 133.35) (xy 165.1 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "307916b0-0d5d-4d3e-8a6d-e0451cc13fe5")
 	)
 	(wire
 		(pts
@@ -7207,6 +7193,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 46.99) (xy 127 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71fe7656-ff91-41c9-a85b-a49762f2e17d")
+	)
+	(wire
+		(pts
 			(xy 152.4 44.45) (xy 166.37 44.45)
 		)
 		(stroke
@@ -7467,16 +7463,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 133.35) (xy 165.1 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98e19826-4dd2-41c7-8c62-0f53efcf2ca1")
-	)
-	(wire
-		(pts
 			(xy 25.4 182.88) (xy 25.4 181.61)
 		)
 		(stroke
@@ -7544,6 +7530,16 @@
 			(type default)
 		)
 		(uuid "a82d7d6f-7e58-4ea1-a1ce-314367c1f79b")
+	)
+	(wire
+		(pts
+			(xy 156.21 133.35) (xy 167.64 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9825a74-13b6-4ef8-b17e-265fee5bcf55")
 	)
 	(wire
 		(pts
@@ -8392,16 +8388,6 @@
 		)
 		(uuid "7a929e4f-fde0-48e7-b79f-66c6e1f3b196")
 	)
-	(text "NSS (CS) tied to GND\nbecause there's only \n1 SPI device on the \nboard"
-		(exclude_from_sim no)
-		(at 171.704 136.144 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-		)
-		(uuid "9628acc8-0270-4553-9555-1c3686c9acf7")
-	)
 	(text "ESP32-S3-WROOM-2\n32MB Flash, 8MB PSRAM\nSoM"
 		(exclude_from_sim no)
 		(at 161.544 17.78 0)
@@ -8826,6 +8812,17 @@
 		)
 		(uuid "8786efef-7bd3-45f3-a609-0a5fb83ed583")
 	)
+	(label "SPI_NSS"
+		(at 167.64 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91c86c30-f75e-4720-b94d-8f19c9e6289a")
+	)
 	(label "USB_D+"
 		(at 219.71 93.98 180)
 		(fields_autoplaced yes)
@@ -8969,6 +8966,17 @@
 		)
 		(uuid "c81fd011-2a62-4861-ac77-53c09daa9556")
 	)
+	(label "SPI_NSS"
+		(at 114.3 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca54e802-e527-4fcf-8c39-4a64ef63ee45")
+	)
 	(label "BATT_VIN"
 		(at 12.7 113.03 0)
 		(fields_autoplaced yes)
@@ -9023,72 +9031,6 @@
 			(justify left bottom)
 		)
 		(uuid "f6099b5b-1ce1-4c57-ae3a-c68c52cf6113")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01f85363-5074-4abf-b514-afa01715b52a")
-		(property "Reference" "#PWR031"
-			(at 165.1 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6df800b-adbd-40b2-b14f-6408648554b4")
-		)
-		(instances
-			(project "KRUPS-FemtoSat"
-				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
