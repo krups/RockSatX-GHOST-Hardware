@@ -2,7 +2,7 @@
 PCB design files and documentation for the femto-satellites used in the University of Kentucky's 2025 RockSat-XG KRUPS payload
 
 ### PCB Render
-<img src="Documentation/pcbtop.png" width="25%"><img src="Documentation/pcbbottom.png" width="25%">
+<img src="Documentation/pcbtop.png" width="50%"><img src="Documentation/pcbbottom.png" width="50%">
 
 ### Components
 - [ESP32-S3-WROOM-2 (32MB Flash, 8MB PSRAM)](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf)

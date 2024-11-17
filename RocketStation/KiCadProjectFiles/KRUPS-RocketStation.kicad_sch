@@ -8209,7 +8209,7 @@
 	)
 	(text "Serial Data \nConnectors"
 		(exclude_from_sim no)
-		(at 209.55 150.622 0)
+		(at 214.884 150.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8369,7 +8369,7 @@
 		)
 		(uuid "0b365356-89e2-4806-97d8-4f53d9547571")
 	)
-	(label "ASYNC_1"
+	(label "ASYNC_2"
 		(at 177.8 151.13 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8457,7 +8457,7 @@
 		)
 		(uuid "2891e89f-6b01-4397-9b4e-2844d9b0f561")
 	)
-	(label "ASYNC_2"
+	(label "ASYNC_1"
 		(at 177.8 160.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8633,7 +8633,7 @@
 		)
 		(uuid "7f730be5-4662-40be-8381-83d4ae347533")
 	)
-	(label "ASYNC_2"
+	(label "ASYNC_1"
 		(at 217.17 118.11 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8699,7 +8699,7 @@
 		)
 		(uuid "9dec7405-0c55-4043-ab3c-880db47f97f6")
 	)
-	(label "ASYNC_1"
+	(label "ASYNC_2"
 		(at 217.17 113.03 180)
 		(fields_autoplaced yes)
 		(effects
