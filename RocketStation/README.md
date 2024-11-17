@@ -1,5 +1,5 @@
 # KRUPS-FemtoSat
-PCB design files and documentation for the femto-satellites used in the University of Kentucky's 2025 RockSat-XG KRUPS payload
+PCB design files and documentation for the base station/rocket station used in the University of Kentucky's 2025 RockSat-XG KRUPS payload
 
 ### PCB Render
 <img src="Documentation/pcbtop.png" width="50%"><img src="Documentation/pcbbottom.png" width="50%">
