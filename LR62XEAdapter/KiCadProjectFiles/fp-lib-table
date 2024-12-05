@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LR62XEAdapter")(type "KiCad")(uri "${KIPRJMOD}/LR62XEAdapter.pretty")(options "")(descr ""))
+)

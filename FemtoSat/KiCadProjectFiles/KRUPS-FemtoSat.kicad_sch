@@ -5,7 +5,7 @@
 	(uuid "b0dcfc14-9606-45df-8d55-b7b091984c61")
 	(paper "A4")
 	(title_block
-		(date "2024-11-11")
+		(date "2024-12-05")
 		(rev "V3")
 	)
 	(lib_symbols
@@ -3365,6 +3365,283 @@
 				)
 			)
 		)
+		(symbol "KRUPS-FemtoSat:LR62XE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.382 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LR62XE"
+				(at 5.334 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KRUPS-FemtoSat:LR62XE"
+				(at 0.254 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LR62XE_1_1"
+				(rectangle
+					(start -8.89 8.89)
+					(end 8.89 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "ANT-SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 6.35 180)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 3.81 180)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "SX-NRESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "BUSY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "DIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -6.35 0)
+					(length 2.54)
+					(name "VDD_RADIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -6.35 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "NSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "KRUPS-FemtoSat:TPS61023"
 			(pin_names
 				(offset 0.254)
@@ -6493,6 +6770,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 146.05) (xy 275.59 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0467cfce-824a-437b-9876-a9d3d7f36cdc")
+	)
+	(wire
+		(pts
 			(xy 213.36 24.13) (xy 213.36 21.59)
 		)
 		(stroke
@@ -7313,6 +7600,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 156.21) (xy 284.48 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844fd8aa-b7ca-4d0b-8212-cf86e2e5bf05")
+	)
+	(wire
+		(pts
 			(xy 35.56 17.78) (xy 49.53 17.78)
 		)
 		(stroke
@@ -7340,6 +7637,26 @@
 			(type default)
 		)
 		(uuid "86c1bf47-5f9a-4074-b7b6-414de37b9773")
+	)
+	(wire
+		(pts
+			(xy 281.94 148.59) (xy 275.59 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8717a39b-f5f5-45b3-b81a-5dc048184b10")
+	)
+	(wire
+		(pts
+			(xy 241.3 153.67) (xy 252.73 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877ba83d-1f0b-483e-90d0-ea8de5054d4a")
 	)
 	(polyline
 		(pts
@@ -7473,6 +7790,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 156.21) (xy 252.73 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd10e9a-42c0-4bc3-b17a-9ce6d08492ce")
+	)
+	(wire
+		(pts
 			(xy 24.13 154.94) (xy 24.13 149.86)
 		)
 		(stroke
@@ -7510,6 +7837,16 @@
 			(type default)
 		)
 		(uuid "a54d9d06-182b-42d4-83a5-1f226ee648da")
+	)
+	(polyline
+		(pts
+			(xy 240.03 137.16) (xy 285.115 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62749bc-9ea9-4fab-8a44-6c9264896d79")
 	)
 	(wire
 		(pts
@@ -7690,6 +8027,16 @@
 			(type default)
 		)
 		(uuid "b8012778-7f77-4962-9232-a59904b88f31")
+	)
+	(wire
+		(pts
+			(xy 241.3 151.13) (xy 252.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b821f2a0-e277-44e4-82a5-bf83929457fd")
 	)
 	(wire
 		(pts
@@ -7883,6 +8230,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 151.13) (xy 284.48 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10ea419-9731-4732-9b1f-12868d047147")
+	)
+	(wire
+		(pts
 			(xy 116.84 33.02) (xy 127 33.02)
 		)
 		(stroke
@@ -7890,6 +8247,26 @@
 			(type default)
 		)
 		(uuid "d1609f2a-b05b-4552-8936-8f3edee61896")
+	)
+	(wire
+		(pts
+			(xy 275.59 158.75) (xy 284.48 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a37101-cce5-4803-b8ce-3079671228d9")
+	)
+	(polyline
+		(pts
+			(xy 285.115 165.1) (xy 240.03 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c521f4-ecd9-4b08-9f55-e0c8b6e6ab55")
 	)
 	(wire
 		(pts
@@ -7990,6 +8367,16 @@
 			(type default)
 		)
 		(uuid "e40283c7-f438-42d6-97e7-cee6a3a076cf")
+	)
+	(wire
+		(pts
+			(xy 275.59 153.67) (xy 284.48 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e526496e-3be6-4b04-acb3-7ec0faa3ad1d")
 	)
 	(wire
 		(pts
@@ -8123,6 +8510,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 148.59) (xy 252.73 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f105c6c2-99f9-4c35-b6d9-00facbc07ec1")
+	)
+	(wire
+		(pts
 			(xy 113.03 172.72) (xy 116.84 172.72)
 		)
 		(stroke
@@ -8130,6 +8527,16 @@
 			(type default)
 		)
 		(uuid "f24846d0-faac-4e2a-a68e-f9b5bae711c6")
+	)
+	(wire
+		(pts
+			(xy 279.4 143.51) (xy 279.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cbcc83-0603-4472-b866-240fe96907b7")
 	)
 	(wire
 		(pts
@@ -8210,6 +8617,18 @@
 			(type default)
 		)
 		(uuid "ff53457e-edd5-4c8f-9b51-639af30a6e70")
+	)
+	(text "LORA_TXEN goes to the RF Switch\nit switches between TX and RX modes\nDatasheet doesnt say if it needs to be \nhigh or low to enable TX, so idk"
+		(exclude_from_sim no)
+		(at 240.284 163.322 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1111)
+			)
+			(justify left)
+		)
+		(uuid "0538e9c9-adba-4572-a250-f641f998b141")
 	)
 	(text "Power Mux\nGSE +5V is used if present\n\nOtherwise, BATT +5V is used"
 		(exclude_from_sim no)
@@ -8388,6 +8807,28 @@
 		)
 		(uuid "7a929e4f-fde0-48e7-b79f-66c6e1f3b196")
 	)
+	(text "3.3V power for an LR62XE"
+		(exclude_from_sim no)
+		(at 229.87 160.274 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "877d4d04-4cbc-49e1-b65b-59f29e932729")
+	)
+	(text "Alternate\n1W LoRa Module\n915MHz"
+		(exclude_from_sim no)
+		(at 247.142 139.954 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "943c14f8-a8b6-4ca0-a5ef-815b3e95960d")
+	)
 	(text "ESP32-S3-WROOM-2\n32MB Flash, 8MB PSRAM\nSoM"
 		(exclude_from_sim no)
 		(at 161.544 17.78 0)
@@ -8471,6 +8912,18 @@
 		)
 		(uuid "e2aea8a8-f4d4-4aed-b3cc-1bcbbfbc9d8f")
 	)
+	(text "Only to be included if\nwe can't use the Ebyte module\nWill be mounted via adapter board"
+		(exclude_from_sim no)
+		(at 241.3 144.526 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1111)
+			)
+			(justify left)
+		)
+		(uuid "eb4a5aba-8f07-4edb-8d1a-2699bf5aaf1d")
+	)
 	(label "~{BNO086_RESET}"
 		(at 109.22 52.07 0)
 		(fields_autoplaced yes)
@@ -8493,6 +8946,17 @@
 		)
 		(uuid "0308713d-d8b9-4ed4-a0e8-bb5e8030dfab")
 	)
+	(label "SPI_MISO"
+		(at 284.48 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1376b552-2795-408f-b553-8122e325bd19")
+	)
 	(label "LORA_DIO2"
 		(at 114.3 125.73 0)
 		(fields_autoplaced yes)
@@ -8514,6 +8978,28 @@
 			(justify left bottom)
 		)
 		(uuid "158d0962-b3ff-4ae7-a619-baf73f9a759e")
+	)
+	(label "LORA_TXEN"
+		(at 241.3 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17d3b752-97f8-4dfb-8236-a0be7585711f")
+	)
+	(label "SPI_MOSI"
+		(at 284.48 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18e3715f-d4e2-498d-a7fa-9ca860632f29")
 	)
 	(label "PLUG_SWITCH"
 		(at 40.64 68.58 180)
@@ -8558,6 +9044,17 @@
 			(justify right bottom)
 		)
 		(uuid "1fcbb621-4f87-4fed-bc15-be8376ce61cf")
+	)
+	(label "LORA_DIO1"
+		(at 241.3 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22f8363d-cc94-41f1-abf4-680eea375b69")
 	)
 	(label "USB_D-"
 		(at 166.37 44.45 180)
@@ -8702,6 +9199,17 @@
 		)
 		(uuid "57f60aa4-7592-4f7f-ba72-62f9a607bacf")
 	)
+	(label "SPI_CLK"
+		(at 284.48 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "585e69fc-7e2c-4d90-870a-d6e0a3a414df")
+	)
 	(label "SPI_MOSI"
 		(at 167.64 128.27 180)
 		(fields_autoplaced yes)
@@ -8845,6 +9353,17 @@
 		)
 		(uuid "9b80b5ed-8451-48b3-9e71-19ac5dbb231c")
 	)
+	(label "SPI_NSS"
+		(at 284.48 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f3f7039-c192-4af6-b0b8-ff0e7cad47fa")
+	)
 	(label "~{LORA_RESET}"
 		(at 170.18 120.65 180)
 		(fields_autoplaced yes)
@@ -8877,6 +9396,17 @@
 			(justify left bottom)
 		)
 		(uuid "a808992c-fc25-4a56-80fe-73ac1307852c")
+	)
+	(label "~{LORA_RESET}"
+		(at 241.3 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8ac1076-eccc-4981-8a18-7e1d311b814c")
 	)
 	(label "5V_BATT"
 		(at 88.9 118.11 180)
@@ -8987,6 +9517,17 @@
 			(justify left bottom)
 		)
 		(uuid "e3e0556f-5669-44e0-89b5-e282ab9bef2c")
+	)
+	(label "LORA_BUSY"
+		(at 241.3 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e64e2169-5b37-4f8e-99be-dde010a24485")
 	)
 	(label "BNO086_HINTN"
 		(at 102.87 189.23 0)
@@ -11676,6 +12217,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 281.94 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52d35743-58d9-4801-bd22-300e6a85a916")
+		(property "Reference" "#PWR057"
+			(at 281.94 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 281.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88167bc0-0d50-4d59-9eb8-6d81f690a47e")
+		)
+		(instances
+			(project ""
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 217.17 138.43 180)
 		(unit 1)
@@ -12081,7 +12688,7 @@
 		(at 140.97 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14860,6 +15467,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 252.73 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a520d8d8-6f3c-4e9a-97be-18d0fdb13d94")
+		(property "Reference" "#PWR031"
+			(at 256.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 248.92 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6b69ae7-9d3b-43be-a874-0c893a06e87f")
+		)
+		(instances
+			(project ""
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 132.08 270)
 		(unit 1)
@@ -14995,6 +15669,104 @@
 		)
 	)
 	(symbol
+		(lib_id "KRUPS-FemtoSat:LR62XE")
+		(at 264.16 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "aa71f93c-732d-4c88-8d24-3cdd8e6db4a6")
+		(property "Reference" "U9"
+			(at 264.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LR62XE"
+			(at 264.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KRUPS-FemtoSat:LR62XE"
+			(at 264.414 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a805da64-f5f6-4f01-abd3-88c727116456")
+		)
+		(pin "12"
+			(uuid "82dd17eb-d785-4c16-8547-8aa9c6b686b2")
+		)
+		(pin "2"
+			(uuid "c320440e-5314-4d20-bc41-d9a2d4368240")
+		)
+		(pin "11"
+			(uuid "71b0ea1f-6f7a-445d-9371-10ee4e11cc78")
+		)
+		(pin "6"
+			(uuid "0542557f-1463-4377-a8fc-22fb1e501321")
+		)
+		(pin "7"
+			(uuid "afc4cf84-e9c3-46e6-a244-c7f19064a3f7")
+		)
+		(pin "5"
+			(uuid "3993f280-07d2-4078-b81d-bca5ef0b700e")
+		)
+		(pin "4"
+			(uuid "cb05db39-d0f8-43d7-b07d-fb86fa36a0bb")
+		)
+		(pin "3"
+			(uuid "a25baf8e-116b-4ea4-bdd3-679d4d319678")
+		)
+		(pin "10"
+			(uuid "8aeebd42-a0a1-4736-9cc9-73253a50c350")
+		)
+		(pin "8"
+			(uuid "b130cb93-17dd-4eb1-b35d-1075a2b8ca4d")
+		)
+		(pin "9"
+			(uuid "c954d50b-475d-417d-8530-765306d4c795")
+		)
+		(instances
+			(project ""
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 191.77 0)
 		(unit 1)
@@ -15055,6 +15827,72 @@
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 279.4 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3a8b083-4f72-42e4-ba6c-f3437e434726")
+		(property "Reference" "#PWR056"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 279.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 279.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "281bab3c-69e2-4491-b9e2-7d965b2d2327")
+		)
+		(instances
+			(project ""
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -15413,6 +16251,73 @@
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 212.09 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5ff205e-0511-40d1-872f-599c287f45eb")
+		(property "Reference" "#PWR058"
+			(at 208.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 215.9 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 212.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce60f0e1-24a4-4169-8c2d-e17550f8ea25")
+		)
+		(instances
+			(project "KRUPS-FemtoSat"
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -16316,6 +17221,71 @@
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 212.09 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0af7747-2297-4fd1-9222-625455b270e8")
+		(property "Reference" "TP4"
+			(at 208.788 157.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 208.788 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 212.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d06d9bfb-d889-438b-9d30-9e99d94e2286")
+		)
+		(instances
+			(project ""
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "TP4")
 					(unit 1)
 				)
 			)

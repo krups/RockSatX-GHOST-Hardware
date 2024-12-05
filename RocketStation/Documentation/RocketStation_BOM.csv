@@ -1,7 +1,7 @@
 PCB Version,V1,,,,
 BOM Last Updated Date,11/20/2024,,,,
 ,,,,,
-Reference,Description,Part Number,Qty,Ordering Link,DigiKey Part Number
+Reference,Description,Part Number,Qty,Ordering Link,
 "C1,C2,C10,C11,C12,C13,C14,C15,C16,C17,C19","0.1uF, 16V, X7R, SMD 0603",CC0603KRX7R7BB104,11,https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R7BB104/302822,
 C18,"100uF, 6.3V, X5R. SMD 1206",CL31A107MQHNNWE,1,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNWE/10479833,
 C3,"100uF, 63V, Aluminum Electrolytic, SMD",A768MS107M1JLAV027,1,https://www.digikey.com/en/products/detail/kemet/A768MS107M1JLAV027/12704606,
@@ -22,4 +22,5 @@ U3,BME280 Environmental Sensor,BME280,1,https://www.digikey.com/en/products/deta
 U4,"SP3232 RS-232 Level Shifter, TSSOP-16",SP3232EUEY-L/TR,1,https://www.digikey.com/en/products/detail/maxlinear-inc/SP3232EUEY-L-TR/2471846,
 U5,"ESP32-S3-WROOM-2, 32MB Flash, 8MB PSRAM",ESP32-S3-WROOM-2-N32R8V,1,https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-2-N32R8V/15970964,
 U6,BNO086 9-Axis IMU,BNO086,1,https://www.digikey.com/en/products/detail/ceva-technologies-inc/BNO086/14114190,
-U7,E22-900M33S 2W LoRa Module,EBYTE \ E22-900M33S,1,https://www.lcsc.com/product-detail/LoRa-Modules_Chengdu-Ebyte-Elec-Tech-E22-900M33S_C22399506.html,An alternative option is https://www.aliexpress.us/item/3256806595412116.html
+U7,E22-900M33S 2W LoRa Module,EBYTE \ E22-900M33S,1,https://www.lcsc.com/product-detail/LoRa-Modules_Chengdu-Ebyte-Elec-Tech-E22-900M33S_C22399506.html,"Not certain about this part, do not order for now"
+U8,LR62XE 1W LoRa Module,LR62XE,1,https://www.digikey.com/en/products/detail/fanstel-corp/LR62XE/22107402,

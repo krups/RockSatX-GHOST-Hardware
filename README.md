@@ -4,3 +4,4 @@ PCB design files and documentation for the hardware used in the University of Ke
 ### Hardware Folders
 - [FemtoSat](FemtoSat)
 - [BaseStation/RocketStation](RocketStation)
+- [LR62XE Adapter/Breakout](LR62XEAdapter)

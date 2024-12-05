@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -56,28 +56,10 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.3556,
-          "via_gap": 0.3556,
-          "width": 0.2286
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|114924578|22724916|1cc8eee8-f0e6-4b78-bfaa-d7ea72448bae|70415d6c-efe3-4fab-9794-1ea034efbaf9",
-        "courtyards_overlap|91644871|30030001|65667ae5-3a22-40e5-be43-d32436ba356a|78eb2f61-f2f6-4daf-bc00-b4926e725c7b",
-        "courtyards_overlap|92586661|27291288|70415d6c-efe3-4fab-9794-1ea034efbaf9|a6a427e3-87c5-413b-85ea-606fa4ef38ee",
-        "items_not_allowed|115090373|22957600|1cc8eee8-f0e6-4b78-bfaa-d7ea72448bae|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|115316000|25146000|e5e4dc7d-91f2-464f-a660-c74a1add8ef6|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|91440000|25146000|a6a427e3-87c5-413b-85ea-606fa4ef38ee|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|91440000|25146000|fdfe094d-aaa4-4b63-beb6-f8e466d114af|00000000-0000-0000-0000-000000000000",
-        "shorting_items|110195000|53330000|bb4f19be-cf4e-4d10-81f8-2f73dd5470b9|54617eb0-a35b-418f-9065-92fa7f0520c3",
-        "shorting_items|110195000|58130000|8321c925-dea9-443d-b89c-3441f4eea312|b9d6e497-4d20-47ca-814f-f6b0dee5d028",
-        "silk_over_copper|111961207|53183411|475d65be-1e87-43a1-9de6-43729d6a4a38|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|111961207|58963411|e568ecb5-dba6-4259-b8f9-832f40541731|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|99568000|29880000|ca2fddb9-40d1-4bfa-bc10-8abc0e34ee64|b9844f25-2876-440c-9fee-891588e1bcfb",
-        "solder_mask_bridge|110195000|53330000|bb4f19be-cf4e-4d10-81f8-2f73dd5470b9|54617eb0-a35b-418f-9065-92fa7f0520c3",
-        "solder_mask_bridge|110195000|58130000|8321c925-dea9-443d-b89c-3441f4eea312|b9d6e497-4d20-47ca-814f-f6b0dee5d028"
+        "courtyards_overlap|94488227|49447501|1dc077fd-3ab7-41c9-8790-951785cd057c|c46271e2-09cd-4b1b-8096-f5fda4104a13"
       ],
       "meta": {
         "version": 2
@@ -106,7 +88,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -136,21 +118,21 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
-        "min_connection": 0.0,
+        "min_clearance": 0.1524,
+        "min_connection": 0.1524,
         "min_copper_edge_clearance": 0.381,
-        "min_hole_clearance": 0.127,
+        "min_hole_clearance": 0.1524,
         "min_hole_to_hole": 0.127,
-        "min_microvia_diameter": 0.4572,
+        "min_microvia_diameter": 0.508,
         "min_microvia_drill": 0.254,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.127,
-        "min_text_thickness": 0.127,
+        "min_text_thickness": 0.0762,
         "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.127,
-        "min_via_annular_width": 0.1016,
-        "min_via_diameter": 0.4572,
+        "min_track_width": 0.1524,
+        "min_via_annular_width": 0.127,
+        "min_via_diameter": 0.508,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -199,14 +181,10 @@
       ],
       "track_widths": [
         0.0,
-        0.127,
-        0.1905,
+        0.1524,
         0.254,
         0.381,
-        0.635,
-        0.762,
-        1.27,
-        2.794
+        0.635
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -240,12 +218,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4572,
+          "diameter": 0.508,
           "drill": 0.254
         },
         {
-          "diameter": 0.508,
-          "drill": 0.254
+          "diameter": 0.635,
+          "drill": 0.3175
         },
         {
           "diameter": 0.762,
@@ -458,7 +436,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "ignore",
+      "lib_symbol_issues": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -481,31 +459,33 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "KRUPS-FemtoSat"
+      "LR62XEAdapter"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "LR62XEAdapter"
+    ]
   },
   "meta": {
-    "filename": "KRUPS-FemtoSat.kicad_pro",
+    "filename": "LR62XEAdapter.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.4572,
-        "microvia_drill": 0.254,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -521,10 +501,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Documentation/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../Documentation/FemtoSat_3DModel.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -532,7 +512,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "KRUPS-FemtoSat.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -582,65 +562,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -685,7 +611,7 @@
   },
   "sheets": [
     [
-      "b0dcfc14-9606-45df-8d55-b7b091984c61",
+      "99291b31-736b-4d9d-b841-b546820a4632",
       "Root"
     ]
   ],

@@ -9,7 +9,7 @@
 	(paper "A5")
 	(title_block
 		(date "2024-11-11")
-		(rev "V3")
+		(rev "V4")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -13657,6 +13657,185 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(layer "B.Cu")
+		(uuid "65667ae5-3a22-40e5-be43-d32436ba356a")
+		(at 91.595 31.53 180)
+		(descr "SMD rectangular pad as test Point, square 2.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "TP4"
+			(at 1.933 0.034 -90)
+			(layer "B.SilkS")
+			(uuid "22590c5b-2798-489b-93fd-76721f36ea57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 -2.05 0)
+			(layer "B.Fab")
+			(uuid "3f8f9608-822f-46e4-a785-9e55c2a89fa1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "51b67ac5-3fb6-4f84-894d-94c2fb8bfd36")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f732be0e-f81b-4eb8-82ed-629e4a31ccec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "37586af5-3900-4f0a-a438-187bb57752b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/e0af7747-2297-4fd1-9222-625455b270e8")
+		(sheetname "Root")
+		(sheetfile "KRUPS-FemtoSat.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start 1.2 1.2)
+			(end -1.2 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "c5bb9776-e38b-4a12-9d2b-02f7ad1d0926")
+		)
+		(fp_line
+			(start 1.2 -1.2)
+			(end 1.2 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "d5d4b807-40cf-409d-957f-c97157f3e7c5")
+		)
+		(fp_line
+			(start -1.2 1.2)
+			(end -1.2 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "5f33bd95-3194-4d95-a22c-e57db8821c09")
+		)
+		(fp_line
+			(start -1.2 -1.2)
+			(end 1.2 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8a76cacf-3f09-457d-a0e3-a97452174584")
+		)
+		(fp_line
+			(start 1.5 1.5)
+			(end 1.5 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "cd0b0d89-07e1-4d92-8b79-e3600fd8a162")
+		)
+		(fp_line
+			(start 1.5 1.5)
+			(end -1.5 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "4b70b4f4-8969-44ed-9c3b-45667126040e")
+		)
+		(fp_line
+			(start -1.5 -1.5)
+			(end 1.5 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "d9da3b27-1557-4bb2-9931-c8dbf1d8b361")
+		)
+		(fp_line
+			(start -1.5 -1.5)
+			(end -1.5 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "91af5c80-507a-4284-9aa4-4fe734804988")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2 0)
+			(layer "B.Fab")
+			(uuid "043fcdaa-5702-4e22-bef9-25fafe92f15e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0 180)
+			(size 2 2)
+			(layers "B.Cu" "B.Mask")
+			(net 5 "+3V3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "602a2bbc-106d-46c3-a36c-ff4358ac38e2")
+		)
+	)
 	(footprint "KRUPS-FemtoSat:E22-XXXM33S"
 		(layer "B.Cu")
 		(uuid "78eb2f61-f2f6-4daf-bc00-b4926e725c7b")
@@ -13727,6 +13906,7 @@
 		(path "/5cef2cd6-abdc-4d90-a5a5-195bfc8967bf")
 		(sheetname "Root")
 		(sheetfile "KRUPS-FemtoSat.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_line
 			(start 19.65 12.725)
 			(end 19.65 -11.275)
@@ -15874,7 +16054,7 @@
 		(layer "Edge.Cuts")
 		(uuid "58f8f57e-7fb0-4e17-a62b-fcf884c999d0")
 	)
-	(gr_text "UNIVERSITY OF KENTUCKY\nKRUPS-FEMTOSAT\nV3 | 11-11-2024\nSERIAL NUMBER:"
+	(gr_text "UNIVERSITY OF KENTUCKY\nKRUPS-FEMTOSAT\nV4 | 12-05-2024\nSERIAL NUMBER:"
 		(at 112.776 28.956 0)
 		(layer "B.SilkS")
 		(uuid "0ab630bd-2f37-4aef-af16-09d8afffc7e6")
@@ -21740,41 +21920,6 @@
 				(xy 90.224511 41.136794) (xy 90.173 41.148) (xy 89.532 41.148) (xy 89.464961 41.128315) (xy 89.419206 41.075511)
 				(xy 89.408 41.024) (xy 89.408 39.748) (xy 89.427685 39.680961) (xy 89.480489 39.635206) (xy 89.532 39.624)
 				(xy 90.173 39.624)
-			)
-		)
-	)
-	(zone
-		(net 2)
-		(net_name "GND")
-		(layer "B.Cu")
-		(uuid "80f3aec0-e5fb-43d3-b834-f69a3b496f1e")
-		(hatch edge 0.5)
-		(priority 16)
-		(connect_pads thru_hole_only
-			(clearance 0.254)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 90.1192 42.7736) (xy 92.8624 42.7736) (xy 92.8624 45.1104) (xy 90.1192 45.1104)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 92.805439 42.793285) (xy 92.851194 42.846089) (xy 92.8624 42.8976) (xy 92.8624 44.9864) (xy 92.842715 45.053439)
-				(xy 92.789911 45.099194) (xy 92.7384 45.1104) (xy 90.2432 45.1104) (xy 90.176161 45.090715) (xy 90.130406 45.037911)
-				(xy 90.1192 44.9864) (xy 90.1192 44.707382) (xy 90.138885 44.640343) (xy 90.176162 44.603066) (xy 90.235614 44.564859)
-				(xy 90.235614 44.564858) (xy 90.235617 44.564857) (xy 90.326589 44.459869) (xy 90.384298 44.333505)
-				(xy 90.404068 44.196) (xy 90.384298 44.058495) (xy 90.371849 44.031235) (xy 90.326591 43.932134)
-				(xy 90.326588 43.93213) (xy 90.235617 43.827143) (xy 90.235614 43.827141) (xy 90.235615 43.827141)
-				(xy 90.17616 43.788932) (xy 90.130406 43.736128) (xy 90.1192 43.684617) (xy 90.1192 42.8976) (xy 90.138885 42.830561)
-				(xy 90.191689 42.784806) (xy 90.2432 42.7736) (xy 92.7384 42.7736)
 			)
 		)
 	)
