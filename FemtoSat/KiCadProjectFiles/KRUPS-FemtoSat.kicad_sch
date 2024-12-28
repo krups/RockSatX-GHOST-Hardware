@@ -5,268 +5,10 @@
 	(uuid "b0dcfc14-9606-45df-8d55-b7b091984c61")
 	(paper "A4")
 	(title_block
-		(date "2024-12-05")
-		(rev "V3")
+		(date "2024-12-27")
+		(rev "V5")
 	)
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack_Switch_MountingPin"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Barrel_Jack_Switch_MountingPin"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack with an internal switch and a mounting pin"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_MountingPin_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.286) (xy 1.905 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_MountingPin_1_1"
-				(polyline
-					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -1189,6 +931,203 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Counter_Clockwise"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5740,303 +5679,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW3"
-				(at 0.508 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Enclosure Detector"
-				(at 0 -5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, push-to-open, generic, two pins"
-				(at -1.27 -13.208 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-closed pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_Open_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.635) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_Push_Open_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 16.51 1.27 90)
-					(length 3.048) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -6567,7 +6209,7 @@
 		(uuid "7a3bff08-e796-44df-9ad1-aafc229a9ef3")
 	)
 	(junction
-		(at 35.56 17.78)
+		(at 31.75 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7aa6fcbc-6465-4785-bfd9-039dc6eac857")
@@ -6577,12 +6219,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e4b1d12-c6f8-478d-9eb0-76578c69f9fb")
-	)
-	(junction
-		(at 62.23 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e9c570b-8496-4e4a-a928-ae1fd718e7aa")
 	)
 	(junction
 		(at 64.77 147.32)
@@ -6601,12 +6237,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a77abaa6-782e-45e8-8e22-36dd3cfaf0b6")
-	)
-	(junction
-		(at 35.56 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7a7f338-0b6b-44a3-bcfb-9d35565d33f4")
 	)
 	(junction
 		(at 109.22 86.36)
@@ -6639,12 +6269,6 @@
 		(uuid "bfa5df0c-5689-4b00-8c2c-f12433819763")
 	)
 	(junction
-		(at 62.23 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4e3cea9-5bcd-4156-a5f1-252fa244130c")
-	)
-	(junction
 		(at 80.01 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6655,6 +6279,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef181226-4ef6-4e09-b978-4571feb4e081")
+	)
+	(junction
+		(at 31.75 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f146b8da-46b6-42c0-aacf-a7e0ad51f82f")
 	)
 	(junction
 		(at 210.82 93.98)
@@ -6689,10 +6319,6 @@
 		(uuid "2c6da47f-d751-4de9-a7d9-0666d306dbcb")
 	)
 	(no_connect
-		(at 152.4 35.56)
-		(uuid "2f53e41f-38c8-48c6-b51a-aaf39e808268")
-	)
-	(no_connect
 		(at 152.4 59.69)
 		(uuid "31fd5f71-5365-4764-be2a-d6ec80ed7a8c")
 	)
@@ -6701,20 +6327,12 @@
 		(uuid "530c6726-9b15-4f8a-af6d-2b6a280d6d20")
 	)
 	(no_connect
-		(at 152.4 33.02)
-		(uuid "6c38a12f-3c3e-4497-9c31-1e5392248cd0")
-	)
-	(no_connect
 		(at 152.4 64.77)
 		(uuid "7be2f9b8-ff09-4bef-b83b-fecc30f51525")
 	)
 	(no_connect
 		(at 152.4 41.91)
 		(uuid "822d9e82-db9b-41a4-a63c-400fa74622df")
-	)
-	(no_connect
-		(at 152.4 52.07)
-		(uuid "900cc7f3-281f-46b0-b714-d971c8e5bae3")
 	)
 	(no_connect
 		(at 152.4 54.61)
@@ -6820,16 +6438,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 60.96) (xy 78.74 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe449f8-21cd-477b-b9f2-54efce39a368")
-	)
-	(wire
-		(pts
 			(xy 139.7 19.05) (xy 139.7 20.32)
 		)
 		(stroke
@@ -6840,13 +6448,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 17.78) (xy 78.74 60.96)
+			(xy 31.75 27.94) (xy 31.75 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11346898-27aa-4d8a-8adc-a17af9281612")
+		(uuid "138fdd63-ca94-410f-9670-d4dbfcbb0cdf")
 	)
 	(wire
 		(pts
@@ -6870,16 +6478,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 66.04) (xy 87.63 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19908ab4-45bf-440f-99dd-00824cdb333d")
-	)
-	(wire
-		(pts
 			(xy 93.98 181.61) (xy 116.84 181.61)
 		)
 		(stroke
@@ -6887,16 +6485,6 @@
 			(type default)
 		)
 		(uuid "1c920d83-869d-41d8-a5b6-f98badfff37e")
-	)
-	(wire
-		(pts
-			(xy 73.66 25.4) (xy 73.66 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d810629-65c3-4ab4-a15f-fb155cca37a9")
 	)
 	(wire
 		(pts
@@ -6970,6 +6558,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 137.16) (xy 215.9 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2770bafc-336e-4437-8aaf-8bdc988117c6")
+	)
+	(wire
+		(pts
 			(xy 29.21 184.15) (xy 25.4 184.15)
 		)
 		(stroke
@@ -7000,7 +6598,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 17.78) (xy 35.56 20.32)
+			(xy 31.75 17.78) (xy 31.75 20.32)
 		)
 		(stroke
 			(width 0)
@@ -7100,16 +6698,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 43.18) (xy 62.23 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3994bd74-171d-4fc8-977c-072e7b820dd3")
-	)
-	(wire
-		(pts
 			(xy 113.03 62.23) (xy 127 62.23)
 		)
 		(stroke
@@ -7127,6 +6715,16 @@
 			(type default)
 		)
 		(uuid "3bdde958-b026-414d-b3df-e0e7a433f835")
+	)
+	(wire
+		(pts
+			(xy 237.49 149.86) (xy 229.87 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8d8102-939e-4bd9-b732-cdee897a6ab0")
 	)
 	(wire
 		(pts
@@ -7190,7 +6788,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 30.48) (xy 54.61 30.48)
+			(xy 31.75 34.29) (xy 54.61 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7257,6 +6855,16 @@
 			(type default)
 		)
 		(uuid "528523f3-18a2-45a1-984f-adaabd748a57")
+	)
+	(wire
+		(pts
+			(xy 199.39 128.27) (xy 199.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52eeb4f6-5284-44bd-8bb3-6c87b6eb58e1")
 	)
 	(wire
 		(pts
@@ -7340,7 +6948,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 25.4) (xy 54.61 30.48)
+			(xy 54.61 25.4) (xy 54.61 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7410,16 +7018,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 71.12) (xy 30.48 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "682f4ba8-743b-458c-86b8-c3df8ba9b1df")
-	)
-	(wire
-		(pts
 			(xy 106.68 115.57) (xy 125.73 115.57)
 		)
 		(stroke
@@ -7427,16 +7025,6 @@
 			(type default)
 		)
 		(uuid "68ad060b-88a2-42d6-899e-34733b4914c2")
-	)
-	(wire
-		(pts
-			(xy 35.56 53.34) (xy 35.56 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf6dba0-ddc8-43e8-9c7f-4d4c3dc8bb9a")
 	)
 	(wire
 		(pts
@@ -7457,16 +7045,6 @@
 			(type default)
 		)
 		(uuid "6f1de461-c486-450a-88d9-863f8c9de172")
-	)
-	(wire
-		(pts
-			(xy 62.23 34.29) (xy 73.66 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fd7e091-523b-4173-8cfa-90b72b1b98c3")
 	)
 	(wire
 		(pts
@@ -7610,7 +7188,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 17.78) (xy 49.53 17.78)
+			(xy 31.75 17.78) (xy 49.53 17.78)
 		)
 		(stroke
 			(width 0)
@@ -7717,6 +7295,26 @@
 			(type default)
 		)
 		(uuid "8f60c084-1b7b-4439-8dd7-e60984dfece9")
+	)
+	(wire
+		(pts
+			(xy 152.4 33.02) (xy 160.02 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc2856d-2654-46ec-a817-2be04b06b901")
+	)
+	(wire
+		(pts
+			(xy 152.4 52.07) (xy 163.83 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921dd75c-b64c-4856-a24a-205d6d1ba3e4")
 	)
 	(wire
 		(pts
@@ -7940,6 +7538,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 34.29) (xy 31.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c44501-8ecc-4946-a325-a2f56c9b5c59")
+	)
+	(wire
+		(pts
 			(xy 114.3 125.73) (xy 125.73 125.73)
 		)
 		(stroke
@@ -7947,6 +7555,16 @@
 			(type default)
 		)
 		(uuid "b1b505da-c1e9-4687-9978-9302daa5977d")
+	)
+	(wire
+		(pts
+			(xy 24.13 66.04) (xy 71.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c614be-1f99-4e92-91c0-9c7f37556c97")
 	)
 	(wire
 		(pts
@@ -7967,16 +7585,6 @@
 			(type default)
 		)
 		(uuid "b34ac275-babb-4bba-b477-1249e9b40ffe")
-	)
-	(wire
-		(pts
-			(xy 26.67 68.58) (xy 40.64 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3987c9f-b37c-401e-b2bb-be347247dbd2")
 	)
 	(wire
 		(pts
@@ -8020,7 +7628,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 71.12) (xy 30.48 72.39)
+			(xy 24.13 68.58) (xy 24.13 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8070,7 +7678,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 17.78) (xy 59.69 17.78)
+			(xy 59.69 17.78) (xy 69.85 17.78)
 		)
 		(stroke
 			(width 0)
@@ -8107,6 +7715,16 @@
 			(type default)
 		)
 		(uuid "bc1a855c-1737-4318-a707-1f0c102a3ecb")
+	)
+	(wire
+		(pts
+			(xy 237.49 152.4) (xy 229.87 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbcfbfb-7a0d-4506-9203-d309bbc4b20e")
 	)
 	(polyline
 		(pts
@@ -8177,26 +7795,6 @@
 			(type default)
 		)
 		(uuid "c327a4da-08f1-41ff-95b2-db746e1c9bef")
-	)
-	(wire
-		(pts
-			(xy 62.23 53.34) (xy 62.23 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6da5316-fa46-4038-9428-1bc0aa380c37")
-	)
-	(wire
-		(pts
-			(xy 35.56 40.64) (xy 35.56 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6de3b0f-fa74-4fb1-9980-877598c0d06e")
 	)
 	(wire
 		(pts
@@ -8290,16 +7888,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 17.78) (xy 68.58 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7cda919-a443-4e4f-be16-e680e623eba8")
-	)
-	(wire
-		(pts
 			(xy 114.3 130.81) (xy 125.73 130.81)
 		)
 		(stroke
@@ -8360,13 +7948,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 27.94) (xy 35.56 30.48)
+			(xy 210.82 132.08) (xy 215.9 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e40283c7-f438-42d6-97e7-cee6a3a076cf")
+		(uuid "e33676a1-8980-475d-a035-19f0fef2e994")
 	)
 	(wire
 		(pts
@@ -8430,7 +8018,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 17.78) (xy 35.56 17.78)
+			(xy 19.05 17.78) (xy 31.75 17.78)
 		)
 		(stroke
 			(width 0)
@@ -8457,16 +8045,6 @@
 			(type default)
 		)
 		(uuid "ebcfb935-f95d-4096-ae88-8b6a129d8f00")
-	)
-	(wire
-		(pts
-			(xy 62.23 20.32) (xy 62.23 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edd161e8-9433-4909-b9f4-79692047b11c")
 	)
 	(wire
 		(pts
@@ -8530,6 +8108,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 35.56) (xy 160.02 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55a8d5e-d49b-4418-aa4b-f4230f9b79bf")
+	)
+	(wire
+		(pts
 			(xy 279.4 143.51) (xy 279.4 146.05)
 		)
 		(stroke
@@ -8577,16 +8165,6 @@
 			(type default)
 		)
 		(uuid "fb206f22-f8a3-4325-9652-1343db0bb0e6")
-	)
-	(wire
-		(pts
-			(xy 62.23 27.94) (xy 62.23 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0b9a00-fd91-4512-8eaf-e12aee656c75")
 	)
 	(wire
 		(pts
@@ -8652,13 +8230,25 @@
 		)
 		(uuid "190fc6c0-23db-4875-8164-ad14b3392bff")
 	)
-	(text "Vf = 2.0V\nIf = 5.0mA"
+	(text "JST VH"
 		(exclude_from_sim no)
-		(at 195.834 150.876 0)
+		(at 17.272 71.628 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "2c63585e-3be8-442b-81c8-55fff24bae11")
+	)
+	(text "Red LED\nPN: APT1608SURCK\nVf = 1.95V\nIf = 20.0mA"
+		(exclude_from_sim no)
+		(at 184.912 156.972 0)
 		(effects
 			(font
 				(size 0.762 0.762)
 			)
+			(justify left)
 		)
 		(uuid "2cef2979-76e9-44bc-a8f0-7fceec749fcf")
 	)
@@ -8712,9 +8302,9 @@
 		)
 		(uuid "5962f27a-2f02-4d6e-8034-50bde04a25db")
 	)
-	(text "Disconnected (open) when inside launcher\nConnected (closed) when deployed\n\nwill also disconnect if the GSE barrel \njack is plugged in"
+	(text "Disconnected (open) when inside launcher\nConnected (closed) when deployed"
 		(exclude_from_sim no)
-		(at 12.446 48.768 0)
+		(at 33.528 40.894 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -8723,7 +8313,7 @@
 		)
 		(uuid "5b806e99-8975-4e88-bd05-21019e878d18")
 	)
-	(text "Battery / +28V GSE\n& selection circuitry"
+	(text "Battery / +28V GSE\n& switch circuitry"
 		(exclude_from_sim no)
 		(at 50.546 75.692 0)
 		(effects
@@ -8735,12 +8325,12 @@
 		)
 		(uuid "6a179082-b580-486d-a929-4e1c31ce094c")
 	)
-	(text "Connects the battery to \nthe voltage converter \nwhen boththe manual \nenable switch and \nenclosure detector \nswitch are connected.\n\n2nd switch & PMOSFET\nfor redundency"
+	(text "PMOSFET that connects the battery \nto the voltage converter \nwhen the enclosure detector \nswitch is connected."
 		(exclude_from_sim no)
-		(at 79.502 30.48 0)
+		(at 58.42 26.416 0)
 		(effects
 			(font
-				(size 0.508 0.508)
+				(size 0.762 0.762)
 			)
 			(justify left)
 		)
@@ -8809,7 +8399,7 @@
 	)
 	(text "3.3V power for an LR62XE"
 		(exclude_from_sim no)
-		(at 229.87 160.274 0)
+		(at 229.87 161.544 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -8829,9 +8419,21 @@
 		)
 		(uuid "943c14f8-a8b6-4ca0-a5ef-815b3e95960d")
 	)
-	(text "ESP32-S3-WROOM-2\n32MB Flash, 8MB PSRAM\nSoM"
+	(text "Do not exceed +9dBm \noutput power on the SX1262"
 		(exclude_from_sim no)
-		(at 161.544 17.78 0)
+		(at 90.678 138.176 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9bd51cbc-11eb-4e05-be7c-e7ecfbf67c45")
+	)
+	(text "ESP32-S3-WROOM-1\n16MB Flash, 8MB PSRAM\nSoM"
+		(exclude_from_sim no)
+		(at 113.03 16.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8841,9 +8443,20 @@
 		)
 		(uuid "9c14937d-45ba-4bf3-9eeb-828b380ee267")
 	)
+	(text "JST VH"
+		(exclude_from_sim no)
+		(at 12.446 14.986 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "a0e5b44b-671a-48fd-869f-584d07d8e6ef")
+	)
 	(text "Debug indicators & testpoints"
 		(exclude_from_sim no)
-		(at 203.454 150.368 0)
+		(at 178.054 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8866,16 +8479,17 @@
 		)
 		(uuid "aeac9ba2-ed14-46d8-a3b0-655b9d278f8b")
 	)
-	(text "Pin 3 is connected to pin 2 when there's no jack plugged in\nOtherwise, it's floating"
+	(text "WROOM-2 modules are currently out of stock so a WROOM-1 \nhas been substituted. The only difference between the \ntwo is that the WROOM 2 has octal SPI flash/PSRAM.\nThe WROOM-2 is otherwise pin compatible with this PCB."
 		(exclude_from_sim no)
-		(at 43.18 69.596 0)
+		(at 144.78 17.018 0)
 		(effects
 			(font
 				(size 0.635 0.635)
+				(color 255 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "b8964a1a-cbf3-450b-a96d-345d83d14ead")
+		(uuid "bb4a9be7-43a0-460f-8d9d-edd640ae5d77")
 	)
 	(text "Voltage Converter\nDC/DC step up\n3.0V-4.35V"
 		(exclude_from_sim no)
@@ -8946,6 +8560,28 @@
 		)
 		(uuid "0308713d-d8b9-4ed4-a0e8-bb5e8030dfab")
 	)
+	(label "I2C_SDA"
+		(at 237.49 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05d153b1-dcd8-4128-96bc-05f96318a699")
+	)
+	(label "IO43"
+		(at 160.02 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0db93617-d97c-48a6-b403-589894d088c1")
+	)
 	(label "SPI_MISO"
 		(at 284.48 153.67 180)
 		(fields_autoplaced yes)
@@ -9001,16 +8637,16 @@
 		)
 		(uuid "18e3715f-d4e2-498d-a7fa-9ca860632f29")
 	)
-	(label "PLUG_SWITCH"
-		(at 40.64 68.58 180)
+	(label "IO44"
+		(at 210.82 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "1a8ea24b-d939-4cbf-a5d2-6a0bf2b70f00")
+		(uuid "1b458f81-d41e-4ff3-98d1-eac99674d33a")
 	)
 	(label "I2C_SCL"
 		(at 173.99 175.26 180)
@@ -9022,17 +8658,6 @@
 			(justify right bottom)
 		)
 		(uuid "1c96c321-87d2-49b0-a6f7-39a82784dc3a")
-	)
-	(label "PLUG_SWITCH"
-		(at 35.56 64.77 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f170cc8-14dd-4113-8c80-036965245680")
 	)
 	(label "I2C_SDA"
 		(at 234.95 41.91 180)
@@ -9067,8 +8692,19 @@
 		)
 		(uuid "27253d9c-3811-4a37-a285-f98a775fee5b")
 	)
+	(label "GPIO_LED"
+		(at 163.83 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29261590-fd8e-46e9-a787-1c3874f5bbd7")
+	)
 	(label "GSE_VIN"
-		(at 87.63 66.04 180)
+		(at 71.12 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9101,7 +8737,7 @@
 		(uuid "2fd600f3-9dd0-45f2-8526-9e31c5482507")
 	)
 	(label "BATT_VIN"
-		(at 87.63 60.96 180)
+		(at 69.85 17.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9144,6 +8780,17 @@
 		)
 		(uuid "3a42c0d4-5868-420b-a3a4-23498e016f37")
 	)
+	(label "IO43"
+		(at 210.82 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a42f353-d1d7-4c8a-8fd7-a9fe1a963bd3")
+	)
 	(label "USB_D-"
 		(at 219.71 88.9 180)
 		(fields_autoplaced yes)
@@ -9154,6 +8801,17 @@
 			(justify right bottom)
 		)
 		(uuid "3bb0ab84-a6a5-4091-994e-6ad0510cbe72")
+	)
+	(label "GPIO_LED"
+		(at 199.39 128.27 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40156552-d72f-470c-98a2-194c23434af4")
 	)
 	(label "I2C_SDA"
 		(at 173.99 177.8 180)
@@ -9177,6 +8835,17 @@
 		)
 		(uuid "4d254405-328d-4420-826e-92d87cd9d602")
 	)
+	(label "IO44"
+		(at 160.02 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50eff46f-1eea-45b5-acc6-fff4fd0b7342")
+	)
 	(label "LORA_DIO2"
 		(at 163.83 49.53 180)
 		(fields_autoplaced yes)
@@ -9198,6 +8867,17 @@
 			(justify left bottom)
 		)
 		(uuid "57f60aa4-7592-4f7f-ba72-62f9a607bacf")
+	)
+	(label "I2C_SCL"
+		(at 237.49 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58243594-1c81-461d-8fb8-6bfbe5aa971e")
 	)
 	(label "SPI_CLK"
 		(at 284.48 158.75 180)
@@ -9540,17 +9220,6 @@
 		)
 		(uuid "e74c069f-0824-4167-9eb9-65f91c24992c")
 	)
-	(label "PLUG_SWITCH"
-		(at 62.23 64.77 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec679b27-eefe-43a8-a886-b1bf358fd345")
-	)
 	(label "~{BNO086_RESET}"
 		(at 102.87 186.69 0)
 		(fields_autoplaced yes)
@@ -9619,7 +9288,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
+			(at 96.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
 			(at 96.52 90.17 0)
 			(effects
 				(font
@@ -9653,7 +9331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ec9f4c4-67a6-4aba-9eff-04644c9ebc9b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR049"
 			(at 110.49 175.26 0)
 			(effects
 				(font
@@ -9704,7 +9382,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR045")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9720,7 +9398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "126a1066-a773-40e4-a1e3-fdb70deb5351")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 140.97 157.48 0)
 			(effects
 				(font
@@ -9835,6 +9513,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "BNO086"
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "fe93bdbf-219a-43d0-a669-f70cec2d93bd")
 		)
@@ -9922,7 +9609,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -9975,6 +9662,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 243.84 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 243.84 15.24 0)
 			(effects
 				(font
@@ -10101,7 +9797,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "3.9K OHM, 1%, 1/10W, SMD 0603"
+			(at 33.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "ERJ-3EKF3901V"
 			(at 33.02 184.15 0)
 			(effects
 				(font
@@ -10135,7 +9840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab33ac5-5dc8-4698-95d5-78d40df6e581")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR057"
 			(at 69.85 198.12 0)
 			(effects
 				(font
@@ -10185,7 +9890,86 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR053")
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 199.39 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ac6f0ca-092e-4e21-90cd-4346e9c22e5b")
+		(property "Reference" "D2"
+			(at 203.2 148.9074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 203.2 151.4474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 199.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, 1.95V Vf, 20mA If, SMD 0603"
+			(at 199.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "APT1608SURCK"
+			(at 199.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b20582ca-233d-4e36-86cc-637cd77918c8")
+		)
+		(pin "2"
+			(uuid "380120bf-5b42-4742-9374-5ba8b95a9bbf")
+		)
+		(instances
+			(project "KRUPS-FemtoSat"
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10201,7 +9985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f828e5b-4cd8-46ec-a3b6-78af91ebd682")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR055"
 			(at 93.98 195.58 0)
 			(effects
 				(font
@@ -10251,7 +10035,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR051")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10369,7 +10153,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
 			(at 196.85 26.67 0)
 			(effects
 				(font
@@ -10403,7 +10196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21f663cb-1c18-4d88-ba0c-446a3edabebf")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 33.02 172.72 0)
 			(effects
 				(font
@@ -10453,7 +10246,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10525,35 +10318,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 196.85 138.43 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 19.05 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "27cce1d8-e56e-403e-921b-65df907edd91")
-		(property "Reference" "TP1"
-			(at 199.39 133.8579 0)
+		(uuid "2acbed68-2294-4518-ac36-2232dc8b5f64")
+		(property "Reference" "J2"
+			(at 19.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 199.39 136.3979 0)
+		(property "Value" "B2PS-VH"
+			(at 19.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 201.93 138.43 0)
+		(property "Footprint" "Connector_JST:JST_VH_S2P-VH_1x02_P3.96mm_Horizontal"
+			(at 19.05 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 138.43 0)
+			(at 19.05 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,88 +10361,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 196.85 138.43 0)
+		(property "Description" "JST-VH 2 Pin Connector, Horizontal"
+			(at 19.05 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Digikey Part Number" "B2PS-VH"
+			(at 19.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46773836-7704-409e-8791-1881da7c8a75")
 		)
 		(pin "1"
-			(uuid "2b1f8558-ce91-44aa-947d-5888ea228059")
+			(uuid "c3bb78a5-a2d6-462e-b61e-be242a327da6")
 		)
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 217.17 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28f0ca1c-fcee-4bdf-9874-233ea20f7be0")
-		(property "Reference" "#PWR034"
-			(at 217.17 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 217.17 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 217.17 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a329e3e-107e-48c1-aea9-93fa0988c712")
-		)
-		(instances
-			(project "KRUPS-FemtoSat"
-				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR034")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10703,7 +10440,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF, 16V, X5R, SMD 0805"
+			(at 58.42 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CL21A106KOQNNNG"
 			(at 58.42 187.96 0)
 			(effects
 				(font
@@ -10728,75 +10474,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 19.05 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c4c35f4-40ed-4343-8501-c0f78294def9")
-		(property "Reference" "#PWR012"
-			(at 19.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 21.59 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01819857-9706-499a-b64b-a7d4a16620e9")
-		)
-		(instances
-			(project "KRUPS-FemtoSat"
-				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 87.63 66.04 180)
+		(at 71.12 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10805,7 +10484,7 @@
 		(fields_autoplaced yes)
 		(uuid "31505d5e-538c-4e0b-85ad-0560823283a8")
 		(property "Reference" "#FLG03"
-			(at 87.63 67.945 0)
+			(at 71.12 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10814,7 +10493,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 87.6301 69.85 90)
+			(at 71.1201 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10824,7 +10503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 66.04 0)
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10833,7 +10512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 66.04 0)
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,7 +10521,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 87.63 66.04 0)
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10864,7 +10543,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 87.63 60.96 180)
+		(at 69.85 17.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10872,8 +10551,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32a49e54-65fe-480c-bdbb-588a0b2f859c")
-		(property "Reference" "#FLG02"
-			(at 87.63 62.865 0)
+		(property "Reference" "#FLG01"
+			(at 69.85 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10882,7 +10561,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 87.6301 64.77 90)
+			(at 69.8501 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10892,7 +10571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 60.96 0)
+			(at 69.85 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10901,7 +10580,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 60.96 0)
+			(at 69.85 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +10589,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 87.63 60.96 0)
+			(at 69.85 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10924,7 +10603,83 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#FLG02")
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 215.9 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "33527123-414e-413b-abb4-51ec1140c476")
+		(property "Reference" "TP1"
+			(at 220.98 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 220.98 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 215.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae6e9e64-0810-4030-9373-eb26d5d0e464")
+		)
+		(instances
+			(project ""
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10975,7 +10730,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF, 10V, X5R, SMD 0805"
+			(at 81.28 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CL21A226MPQNNNE"
 			(at 81.28 187.96 0)
 			(effects
 				(font
@@ -11075,7 +10839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36a958ad-9229-4484-be54-25484e272d3d")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR054"
 			(at 83.82 187.96 0)
 			(effects
 				(font
@@ -11125,77 +10889,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Open")
-		(at 62.23 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38746d88-bbd5-40a3-9aac-101b74fbc7d1")
-		(property "Reference" "SW3"
-			(at 65.024 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Enclosure Detector"
-			(at 67.564 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KRUPS-FemtoSat:LC1258OANP"
-			(at 57.15 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, push-to-open, generic, two pins"
-			(at 75.438 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aae645c4-150b-408b-8989-fbf915353bd7")
-		)
-		(pin "2"
-			(uuid "281efc45-8a5c-432f-920f-ebb39a9b31fe")
-		)
-		(pin "NC"
-			(uuid "172cc88c-a5e6-47d7-a4e8-29cb64394ab0")
-		)
-		(instances
-			(project "KRUPS-FemtoSat"
-				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "SW3")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11247,7 +10941,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF, 16V, X5R, SMD 0805"
+			(at 64.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CL21A106KOQNNNG"
 			(at 64.77 151.13 0)
 			(effects
 				(font
@@ -11273,7 +10976,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 35.56 24.13 0)
+		(at 31.75 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11282,7 +10985,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b1ce65b-4890-471a-aba1-5f6107f5a5dc")
 		(property "Reference" "R1"
-			(at 38.1 22.8599 0)
+			(at 34.29 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11291,7 +10994,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 38.1 25.3999 0)
+			(at 34.29 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11300,7 +11003,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 33.782 24.13 90)
+			(at 29.972 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,7 +11012,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 24.13 0)
+			(at 31.75 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11317,8 +11020,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 35.56 24.13 0)
+		(property "Description" "100K OHM, 1%, 1/10W, SMD 0603"
+			(at 31.75 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RMCF0603FT100K"
+			(at 31.75 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11454,6 +11166,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 243.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 243.84 20.32 0)
 			(effects
 				(font
@@ -11655,6 +11376,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "USB4110-GF-A"
+			(at 194.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B4"
 			(uuid "f68e89b6-0e82-4a86-a186-7ca4a97da3f2")
 		)
@@ -11768,6 +11498,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "TPS2117DRLR"
+			(at 49.53 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3471e373-7086-4561-a49b-a6f902e6604a")
 		)
@@ -11811,7 +11550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4be5b6c1-4946-4280-8f13-c008e523938e")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR048"
 			(at 171.45 170.18 0)
 			(effects
 				(font
@@ -11862,7 +11601,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR044")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11914,7 +11653,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
+			(at 93.98 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
 			(at 93.98 185.42 0)
 			(effects
 				(font
@@ -11993,6 +11741,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0ef0a321-45a0-4877-8d15-b0880f20c097")
 		)
@@ -12018,7 +11775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fe01046-e59d-440b-a33b-f19fc7b8ef3f")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 69.85 177.8 0)
 			(effects
 				(font
@@ -12062,6 +11819,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "AZ1117CR2-3.3TRG1"
+			(at 69.85 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2151695f-8b06-413a-ae79-fc631a54ebaa")
 		)
@@ -12074,7 +11840,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -12192,7 +11958,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF, 10V, X5R, SMD 0805"
+			(at 74.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CL21A226MPQNNNE"
 			(at 74.93 121.92 0)
 			(effects
 				(font
@@ -12226,7 +12001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52d35743-58d9-4801-bd22-300e6a85a916")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR036"
 			(at 281.94 142.24 0)
 			(effects
 				(font
@@ -12276,74 +12051,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 217.17 138.43 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54f3dd50-98b7-4d55-9f06-cc3549a87f55")
-		(property "Reference" "TP3"
-			(at 219.71 140.4619 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "+5V"
-			(at 219.71 143.0019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 212.09 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 217.17 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "027caa24-2ad0-4a8d-aa0d-a8a39b711415")
-		)
-		(instances
-			(project ""
-				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "TP3")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12425,7 +12133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59d520cf-f8a0-4e54-acc0-aad0f307c965")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR043"
 			(at 104.14 167.64 0)
 			(effects
 				(font
@@ -12475,7 +12183,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR040")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12491,7 +12199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b5b39e7-9814-446f-839f-5e24b537b1d9")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 99.06 80.0099 0)
 			(effects
 				(font
@@ -12527,7 +12235,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10K OHM, 1%, 1/10W, SMD 0603"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RC0603FR-0710KL"
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -12545,7 +12262,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12553,7 +12270,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 207.01 138.43 0)
+		(at 229.87 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12561,8 +12278,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b880faf-4004-45a8-86a1-c6793abeb02e")
-		(property "Reference" "#PWR033"
-			(at 207.01 142.24 0)
+		(property "Reference" "#PWR030"
+			(at 229.87 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12571,7 +12288,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 207.01 133.35 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,7 +12296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 138.43 0)
+			(at 229.87 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 138.43 0)
+			(at 229.87 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12597,7 +12314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 207.01 138.43 0)
+			(at 229.87 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12611,7 +12328,83 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR033")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 215.9 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b992e3f-ba5a-49be-a1db-35a643915c0c")
+		(property "Reference" "TP3"
+			(at 220.98 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 220.98 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f441deba-09d7-4c2a-ab17-5a5e21cc5b3a")
+		)
+		(instances
+			(project "KRUPS-FemtoSat"
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12727,8 +12520,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2W LoRa Module"
 			(at 140.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "ORDER SEPERATELY"
+			(at 140.97 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12857,7 +12659,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF, 10V, X5R, SMD 0805"
+			(at 97.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CL21A226MPQNNNE"
 			(at 97.79 24.13 0)
 			(effects
 				(font
@@ -12882,161 +12693,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 35.56 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d712a88-6199-4ad7-b2f1-db9eb756e41d")
-		(property "Reference" "SW1"
-			(at 46.228 33.782 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Enable Switch"
-			(at 46.228 36.322 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile"
-			(at 35.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 35.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ae66eb5-029a-4bcc-99b3-84c04b77cf4d")
-		)
-		(pin "1"
-			(uuid "853b8140-07f5-4fba-86c9-00a5e3a40a9f")
-		)
-		(instances
-			(project ""
-				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KRUPS-FemtoSat:IRF7410")
-		(at 73.66 20.32 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60892144-46bb-45cb-9ffd-ffe45943668f")
-		(property "Reference" "Q2"
-			(at 82.804 15.494 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IRF7410"
-			(at 82.804 18.034 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 66.802 -7.112 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eff13f69-8a08-4a34-bd59-7c1df02702b1")
-		)
-		(pin "8"
-			(uuid "2c7c114e-4daa-4d8a-b328-017fbf486c8d")
-		)
-		(pin "5"
-			(uuid "d3b3274b-29f2-444b-9b9f-b7a0d5048756")
-		)
-		(pin "6"
-			(uuid "57751f9c-1f66-458e-acc8-64dfc1cea6f8")
-		)
-		(pin "2"
-			(uuid "ab7b1ed5-03e4-4b20-bba0-9feefdc49947")
-		)
-		(pin "4"
-			(uuid "a6eb1490-b152-4fb4-bab7-f913d3d155f7")
-		)
-		(pin "7"
-			(uuid "76632a4f-00f5-4041-8c11-7db065edf12c")
-		)
-		(pin "3"
-			(uuid "85a3eceb-3fbb-4cb1-a909-0c39e64d5946")
-		)
-		(instances
-			(project ""
-				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 207.01 138.43 180)
+		(at 229.87 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13045,7 +12703,7 @@
 		(fields_autoplaced yes)
 		(uuid "61cd357a-bac2-4a75-8bb5-02cad7172000")
 		(property "Reference" "TP2"
-			(at 209.55 140.4619 0)
+			(at 232.41 135.3819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13054,7 +12712,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 209.55 143.0019 0)
+			(at 232.41 137.9219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13063,7 +12721,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 201.93 138.43 0)
+			(at 224.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13072,7 +12730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 138.43 0)
+			(at 224.79 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13081,7 +12739,16 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 207.01 138.43 0)
+			(at 229.87 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 229.87 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13111,7 +12778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63325c84-84a0-4e09-9ec5-995092e051da")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR051"
 			(at 171.45 181.61 0)
 			(effects
 				(font
@@ -13162,7 +12829,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR047")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -13170,7 +12837,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 184.15 148.59 90)
+		(at 180.34 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13179,7 +12846,7 @@
 		(fields_autoplaced yes)
 		(uuid "65f4951b-3402-4374-b0e0-c7fa10fdc9a8")
 		(property "Reference" "D1"
-			(at 187.96 148.9074 90)
+			(at 184.15 148.9074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +12855,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 187.96 151.4474 90)
+			(at 184.15 151.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +12864,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 184.15 148.59 0)
+			(at 180.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,7 +12873,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 148.59 0)
+			(at 180.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13214,8 +12881,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 184.15 148.59 0)
+		(property "Description" "LED, 1.95V Vf, 20mA If, SMD 0603"
+			(at 180.34 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "APT1608SURCK"
+			(at 180.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,7 +12924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a92a48d-2c28-4e86-b395-8d4198fdf125")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR056"
 			(at 58.42 198.12 0)
 			(effects
 				(font
@@ -13298,7 +12974,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR052")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -13306,7 +12982,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 140.97 0)
+		(at 180.34 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13314,8 +12990,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b06149c-de89-4c21-b500-dd8a55dc4008")
-		(property "Reference" "R8"
-			(at 186.69 139.6999 0)
+		(property "Reference" "R7"
+			(at 182.88 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13323,8 +12999,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270"
-			(at 186.69 142.2399 0)
+		(property "Value" "68"
+			(at 182.88 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,7 +13009,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 182.372 140.97 90)
+			(at 178.562 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13342,7 +13018,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 140.97 0)
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13350,8 +13026,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 184.15 140.97 0)
+		(property "Description" "68 OHM, 5%, 1/10W, SMD 0603"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RC0603JR-0768RL"
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13368,7 +13053,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13421,6 +13106,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
 			(at 109.22 88.9 0)
 			(effects
 				(font
@@ -13487,7 +13181,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "3.9K OHM, 1%, 1/10W, SMD 0603"
+			(at 33.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "ERJ-3EKF3901V"
 			(at 33.02 181.61 0)
 			(effects
 				(font
@@ -13506,6 +13209,73 @@
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dad60ac-1bab-4bb5-8b81-32f0906e4cc6")
+		(property "Reference" "#PWR037"
+			(at 210.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "354455a8-8dec-4ac3-bad5-4e54a1c3e511")
+		)
+		(instances
+			(project "KRUPS-FemtoSat"
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -13555,7 +13325,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PMOSFET, SOIC-8"
+			(at 54.61 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "IRF7410TRPBF"
 			(at 54.61 20.32 0)
 			(effects
 				(font
@@ -13600,15 +13379,15 @@
 	(symbol
 		(lib_name "SW_Push_Open_1")
 		(lib_id "Switch:SW_Push_Open")
-		(at 35.56 48.26 90)
+		(at 31.75 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6f53a8a4-cdcb-4fb6-ac3d-2d86f9d98dd6")
-		(property "Reference" "SW2"
-			(at 46.228 46.482 90)
+		(property "Reference" "SW1"
+			(at 21.59 47.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13616,7 +13395,7 @@
 			)
 		)
 		(property "Value" "Enclosure Detector"
-			(at 46.228 49.022 90)
+			(at 21.59 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13624,7 +13403,7 @@
 			)
 		)
 		(property "Footprint" "KRUPS-FemtoSat:LC1258OANP"
-			(at 30.48 48.26 0)
+			(at 26.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13633,7 +13412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 48.26 0)
+			(at 26.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13641,8 +13420,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, push-to-open, generic, two pins"
-			(at 39.116 48.26 0)
+		(property "Description" "SPDT Push Switch, Non-Latching"
+			(at 35.306 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "LC1258OANP"
+			(at 31.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13662,7 +13450,74 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "SW2")
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 217.17 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f58aa16-8bfb-4550-a523-dc8208c21bd2")
+		(property "Reference" "#PWR040"
+			(at 220.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 213.36 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14ffdc88-c6ad-455e-8d3b-d6f62717b69b")
+		)
+		(instances
+			(project "KRUPS-FemtoSat"
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13678,7 +13533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd3072f-390e-4079-8c6f-cd1f7478ae1f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 71.12 149.86 0)
 			(effects
 				(font
@@ -13728,7 +13583,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -13744,7 +13599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70dfff7b-70e8-48f4-a7f7-93dd830a31d4")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR046"
 			(at 49.53 172.72 0)
 			(effects
 				(font
@@ -13794,7 +13649,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR042")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13809,7 +13664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73eb1178-c6a6-4e55-8843-ce2612099208")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 36.83 127.254 90)
 			(effects
 				(font
@@ -13843,7 +13698,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10K OHM, 1%, 1/10W, SMD 0603"
+			(at 36.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RC0603FR-0710KL"
 			(at 36.83 132.08 0)
 			(effects
 				(font
@@ -13861,73 +13725,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 196.85 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "784a5af3-2e6a-4205-94c5-dc99278bcc63")
-		(property "Reference" "#PWR032"
-			(at 196.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 196.85 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d98f8fd-911c-43fc-964c-53ed994e1583")
-		)
-		(instances
-			(project "KRUPS-FemtoSat"
-				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR032")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13979,7 +13777,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
+			(at 191.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
 			(at 191.77 26.67 0)
 			(effects
 				(font
@@ -13998,80 +13805,6 @@
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch_MountingPin")
-		(at 19.05 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79907d5e-f9d2-4932-a0f9-359c9896738f")
-		(property "Reference" "J2"
-			(at 19.05 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "54-00170"
-			(at 19.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KRUPS-FemtoSat:TENSILITY_54-00170"
-			(at 20.32 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack with an internal switch and a mounting pin"
-			(at 19.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56cb4b00-6896-43ea-a35d-cff7c77e366a")
-		)
-		(pin "3"
-			(uuid "ca8ee9b2-e5cb-412b-bf5e-ef99c42fdaa4")
-		)
-		(pin "1"
-			(uuid "445fcafe-d563-4223-bfca-51a608d584b1")
-		)
-		(pin "MP"
-			(uuid "e4a9dbcb-db0a-43e9-8c44-137029511531")
-		)
-		(instances
-			(project ""
-				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14120,7 +13853,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "XEL4030-102MEC"
+		(property "Description" "1uH Inductor, Shielded"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "XEL4030-102MEC"
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -14220,7 +13962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7da778bf-0faa-4681-9abb-d2a0ac5591e1")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 213.36 60.96 0)
 			(effects
 				(font
@@ -14270,74 +14012,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 13.97 20.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ec91def-1abe-40d3-9e6f-39435103669d")
-		(property "Reference" "J1"
-			(at 13.462 23.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT30U Male Connector"
-			(at 23.368 25.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 13.97 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 13.97 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 13.97 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6227cb76-ee67-42fa-8b34-ef01d28cf4ea")
-		)
-		(pin "1"
-			(uuid "d736f8e8-fb5f-4616-9eea-92ec7700d54b")
-		)
-		(instances
-			(project "KRUPS-FemtoSat"
-				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "J1")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14362,7 +14037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-2"
+		(property "Value" "ESP32-S3-WROOM-1-N16R8"
 			(at 141.8941 24.13 0)
 			(effects
 				(font
@@ -14389,8 +14064,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RF Module, 2.4 GHz, Wi­-Fi, Bluetooth, BLE, ESP32­-S3R8V"
+		(property "Description" "ESP32-S3 System on Module, 16MB Flash, 8MB PSRAM"
 			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "ESP32-S3-WROOM-1-N16R8"
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14540,7 +14224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8352aba6-68be-4317-b68a-b02a4ecb69e6")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR059"
 			(at 110.49 193.04 0)
 			(effects
 				(font
@@ -14591,7 +14275,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR055")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -14607,7 +14291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84c1769a-51bf-4a89-aa30-4166f7071211")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR042"
 			(at 92.71 167.64 0)
 			(effects
 				(font
@@ -14657,7 +14341,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR039")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -14708,7 +14392,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF, 10V, X5R, SMD 0805"
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CL21A226MPQNNNE"
 			(at 80.01 121.92 0)
 			(effects
 				(font
@@ -14727,6 +14420,161 @@
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ec91836-b74a-4818-901a-16f01cbe4f7a")
+		(property "Reference" "R8"
+			(at 201.93 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68"
+			(at 201.93 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 197.612 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "68 OHM, 5%, 1/10W, SMD 0603"
+			(at 199.39 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RC0603JR-0768RL"
+			(at 199.39 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f74b7d2-145f-4ba4-82a5-5728e8a153ec")
+		)
+		(pin "1"
+			(uuid "649e98d7-fda6-4431-9dd9-20f66f8cd013")
+		)
+		(instances
+			(project "KRUPS-FemtoSat"
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 13.97 20.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91c47255-59bd-42e7-872a-bd5615e10ebf")
+		(property "Reference" "J1"
+			(at 13.462 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2P-VH-FB-B"
+			(at 19.558 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-FB-B_1x02_P3.96mm_Vertical"
+			(at 13.97 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 13.97 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST-VH 2 Pin Connector, Shielded, Vertical"
+			(at 13.97 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "B2P-VH-FB-B"
+			(at 13.97 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7aa06413-7265-435f-aabe-7d2fead47f4f")
+		)
+		(pin "1"
+			(uuid "8c85fb38-aaa3-49f3-8f43-65d6969f70ff")
+		)
+		(instances
+			(project ""
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -14875,7 +14723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9585eda5-7c86-453f-adfb-8fe65c03293a")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR031"
 			(at 116.84 137.16 0)
 			(effects
 				(font
@@ -14926,7 +14774,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR035")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -15008,7 +14856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99d0c8a8-3088-4b29-9e40-0a9dca152aaa")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR053"
 			(at 55.88 187.96 0)
 			(effects
 				(font
@@ -15058,7 +14906,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR049")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -15186,6 +15034,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 243.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1361413-ab06-4673-99c0-75ecb9f1b8a7")
 		)
@@ -15208,7 +15065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e6b8c32-5463-413c-9a18-8a3a23a0d221")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR047"
 			(at 64.77 172.72 0)
 			(effects
 				(font
@@ -15258,7 +15115,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR043")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -15274,7 +15131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eba71ac-5f21-4b56-a1ea-eaf4c48993fe")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 113.03 152.4 0)
 			(effects
 				(font
@@ -15324,76 +15181,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 62.23 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f21e2e9-7b0b-466d-a46c-c534b5a60e54")
-		(property "Reference" "R2"
-			(at 64.516 22.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 64.516 24.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 60.452 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 62.23 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c58d32cd-affe-49e9-9214-2772bc8af951")
-		)
-		(pin "2"
-			(uuid "22face3c-a272-46e0-a627-e5a58ed68972")
-		)
-		(instances
-			(project "KRUPS-FemtoSat"
-				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "R2")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -15476,7 +15264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a520d8d8-6f3c-4e9a-97be-18d0fdb13d94")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR041"
 			(at 256.54 158.75 0)
 			(effects
 				(font
@@ -15527,7 +15315,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR031")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15610,7 +15398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a970b924-c118-46a3-bb87-210742a6697f")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 20.955 21.59 0)
 			(effects
 				(font
@@ -15662,7 +15450,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -15678,7 +15466,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aa71f93c-732d-4c88-8d24-3cdd8e6db4a6")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -15712,8 +15500,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1W LoRa Module"
 			(at 259.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "LR62XE"
+			(at 264.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15760,7 +15557,73 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "U9")
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aac01e6d-f58d-4ec5-a841-d78853556050")
+		(property "Reference" "#PWR039"
+			(at 199.39 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "335b1345-78b9-4654-abc0-175bea0f4d0e")
+		)
+		(instances
+			(project "KRUPS-FemtoSat"
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15776,7 +15639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae0a753b-51ea-4729-b628-42bbd24bed8c")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR058"
 			(at 81.28 198.12 0)
 			(effects
 				(font
@@ -15826,7 +15689,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR054")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -15842,7 +15705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3a8b083-4f72-42e4-ba6c-f3437e434726")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR033"
 			(at 279.4 147.32 0)
 			(effects
 				(font
@@ -15892,7 +15755,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR056")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15944,7 +15807,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100uF, 6.3V, X5R. SMD 1206"
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CL31A107MQHNNWE"
 			(at 106.68 119.38 0)
 			(effects
 				(font
@@ -16023,6 +15895,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "BME280"
+			(at 210.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "496b6ed4-9d20-4af7-a25e-82c338bbd396")
 		)
@@ -16066,7 +15947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9c1b073-c0d1-407a-9c52-2118ed21536d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR052"
 			(at 25.4 182.88 0)
 			(effects
 				(font
@@ -16117,7 +15998,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR048")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -16125,7 +16006,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 152.4 0)
+		(at 180.34 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16134,7 +16015,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc755457-f0fe-498e-bbde-0b3e8664791f")
 		(property "Reference" "#PWR038"
-			(at 184.15 158.75 0)
+			(at 180.34 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16143,7 +16024,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 157.48 0)
+			(at 180.34 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16151,7 +16032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 152.4 0)
+			(at 180.34 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16160,7 +16041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 152.4 0)
+			(at 180.34 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16169,7 +16050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 152.4 0)
+			(at 180.34 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16199,7 +16080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4168ae4-b347-4c51-b957-f7e783bd7f95")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR050"
 			(at 110.49 177.8 0)
 			(effects
 				(font
@@ -16250,7 +16131,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR046")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -16258,7 +16139,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 212.09 160.02 270)
+		(at 212.09 161.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16266,8 +16147,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5ff205e-0511-40d1-872f-599c287f45eb")
-		(property "Reference" "#PWR058"
-			(at 208.28 160.02 0)
+		(property "Reference" "#PWR044"
+			(at 208.28 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16276,7 +16157,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 215.9 160.0199 90)
+			(at 215.9 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16285,7 +16166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 160.02 0)
+			(at 212.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16294,7 +16175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 160.02 0)
+			(at 212.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16303,7 +16184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 212.09 160.02 0)
+			(at 212.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16317,7 +16198,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR058")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -16390,6 +16271,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca9fbaf1-1065-4755-bf79-de9e849848b2")
+		(property "Reference" "#PWR09"
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d35f090f-6058-4cc8-9c44-59fd74bb0765")
+		)
+		(instances
+			(project "KRUPS-FemtoSat"
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 224.79 87.63 0)
 		(unit 1)
@@ -16399,7 +16346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafb21c4-9797-4d74-a1e2-da9f85a2eff2")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 227.33 86.3599 0)
 			(effects
 				(font
@@ -16435,7 +16382,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "5.1K OHM, 1%, 1/10W, SMD 0603"
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RC0603FR-075K1L"
 			(at 224.79 87.63 0)
 			(effects
 				(font
@@ -16453,7 +16409,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -16504,7 +16460,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TPS61023 Boost Converter"
+			(at 48.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "TPS61023DRLR"
 			(at 48.26 118.11 0)
 			(effects
 				(font
@@ -16586,7 +16551,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100K OHM, 1%, 1/10W, SMD 0603"
+			(at 33.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RMCF0603FT100K"
 			(at 33.02 162.56 0)
 			(effects
 				(font
@@ -16611,6 +16585,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 222.25 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2fa3101-5671-4a85-9f04-559c457a0b45")
+		(property "Reference" "J4"
+			(at 223.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x02"
+			(at 223.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+			(at 222.25 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.100in Pin Header, 02x02"
+			(at 222.25 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 222.25 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8b503b03-1bf9-4421-a1ca-9f7a8c0850f0")
+		)
+		(pin "1"
+			(uuid "2bb098ac-87bd-453e-ab5b-a103f8700eb0")
+		)
+		(pin "3"
+			(uuid "90347e1d-4f85-4e7b-95d5-71d54fce3423")
+		)
+		(pin "2"
+			(uuid "16732df0-5453-47e4-84ed-79386105e164")
+		)
+		(instances
+			(project ""
+				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 233.68 87.63 0)
 		(unit 1)
@@ -16620,7 +16677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d35ebf1b-1e37-4580-b26f-afae43b4824f")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 236.22 86.3599 0)
 			(effects
 				(font
@@ -16656,7 +16713,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "5.1K OHM, 1%, 1/10W, SMD 0603"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RC0603FR-075K1L"
 			(at 233.68 87.63 0)
 			(effects
 				(font
@@ -16674,7 +16740,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16690,7 +16756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d43b19d8-eb72-4b8a-9840-9736ed37f98b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 208.28 60.96 0)
 			(effects
 				(font
@@ -16740,7 +16806,7 @@
 		(instances
 			(project "KRUPS-FemtoSat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16791,7 +16857,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
+			(at 92.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
 			(at 92.71 157.48 0)
 			(effects
 				(font
@@ -16936,6 +17011,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "TSR 2-2450"
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d5469256-d9ac-4390-bbf6-44b7c777f703")
 		)
@@ -16964,7 +17048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d656b83a-cccd-4abe-a2f5-6fe28e09f4a3")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 67.31 125.7299 0)
 			(effects
 				(font
@@ -17000,7 +17084,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "73.2K OHM, 1%, 1/10W, SMD 0603"
+			(at 64.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "RC0603FR-0773K2L"
 			(at 64.77 127 0)
 			(effects
 				(font
@@ -17018,7 +17111,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -17026,7 +17119,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 184.15 137.16 0)
+		(at 180.34 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17034,8 +17127,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d71a0fed-11c4-4394-a244-0497342bfb26")
-		(property "Reference" "#PWR030"
-			(at 184.15 140.97 0)
+		(property "Reference" "#PWR032"
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17044,7 +17137,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 184.15 132.08 0)
+			(at 180.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17052,7 +17145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 137.16 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17061,7 +17154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 137.16 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17070,7 +17163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 184.15 137.16 0)
+			(at 180.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17084,7 +17177,7 @@
 		(instances
 			(project ""
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -17202,7 +17295,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
+			(at 104.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
 			(at 104.14 157.48 0)
 			(effects
 				(font
@@ -17228,7 +17330,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 212.09 160.02 90)
+		(at 212.09 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17236,7 +17338,7 @@
 		(dnp no)
 		(uuid "e0af7747-2297-4fd1-9222-625455b270e8")
 		(property "Reference" "TP4"
-			(at 208.788 157.734 90)
+			(at 205.994 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17244,7 +17346,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 208.788 157.48 90)
+			(at 208.788 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17253,7 +17355,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 212.09 154.94 0)
+			(at 212.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17262,7 +17364,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 154.94 0)
+			(at 212.09 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17271,7 +17373,16 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 212.09 160.02 0)
+			(at 212.09 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 212.09 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17558,7 +17669,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 72.39 0)
+		(at 24.13 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17566,8 +17677,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaa3ff92-8a5e-49ca-afa4-b4289edf781f")
-		(property "Reference" "#PWR011"
-			(at 30.48 78.74 0)
+		(property "Reference" "#PWR012"
+			(at 24.13 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17576,7 +17687,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 77.47 0)
+			(at 24.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17584,7 +17695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 72.39 0)
+			(at 24.13 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17593,7 +17704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 72.39 0)
+			(at 24.13 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17602,7 +17713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 72.39 0)
+			(at 24.13 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17616,7 +17727,7 @@
 		(instances
 			(project "KRUPS-FemtoSat-Hat"
 				(path "/b0dcfc14-9606-45df-8d55-b7b091984c61"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -17734,7 +17845,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF, 16V, X5R, SMD 0805"
+			(at 24.13 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "CL21A106KOQNNNG"
 			(at 24.13 116.84 0)
 			(effects
 				(font

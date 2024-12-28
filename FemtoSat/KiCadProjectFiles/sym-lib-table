@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "KRUPS-FemtoSat")(type "KiCad")(uri "${KIPRJMOD}/KRUPS-FemtoSat.kicad_sym")(options "")(descr ""))
-  (lib (name "lr62xe")(type "KiCad")(uri "D:/downloads/lr62xe.kicad_sym")(options "")(descr ""))
 )

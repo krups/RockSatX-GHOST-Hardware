@@ -64,20 +64,20 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|114924578|22724916|1cc8eee8-f0e6-4b78-bfaa-d7ea72448bae|70415d6c-efe3-4fab-9794-1ea034efbaf9",
-        "courtyards_overlap|91644871|30030001|65667ae5-3a22-40e5-be43-d32436ba356a|78eb2f61-f2f6-4daf-bc00-b4926e725c7b",
-        "courtyards_overlap|92586661|27291288|70415d6c-efe3-4fab-9794-1ea034efbaf9|a6a427e3-87c5-413b-85ea-606fa4ef38ee",
-        "items_not_allowed|115090373|22957600|1cc8eee8-f0e6-4b78-bfaa-d7ea72448bae|00000000-0000-0000-0000-000000000000",
+        "courtyards_overlap|114925380|22729860|1cc8eee8-f0e6-4b78-bfaa-d7ea72448bae|70415d6c-efe3-4fab-9794-1ea034efbaf9",
+        "courtyards_overlap|91649851|30035000|65667ae5-3a22-40e5-be43-d32436ba356a|78eb2f61-f2f6-4daf-bc00-b4926e725c7b",
+        "courtyards_overlap|92589781|27284055|70415d6c-efe3-4fab-9794-1ea034efbaf9|a6a427e3-87c5-413b-85ea-606fa4ef38ee",
+        "items_not_allowed|114682731|22779257|1cc8eee8-f0e6-4b78-bfaa-d7ea72448bae|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|115316000|25146000|e5e4dc7d-91f2-464f-a660-c74a1add8ef6|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|91440000|25146000|a6a427e3-87c5-413b-85ea-606fa4ef38ee|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|91440000|25146000|fdfe094d-aaa4-4b63-beb6-f8e466d114af|00000000-0000-0000-0000-000000000000",
-        "shorting_items|110195000|53330000|bb4f19be-cf4e-4d10-81f8-2f73dd5470b9|54617eb0-a35b-418f-9065-92fa7f0520c3",
-        "shorting_items|110195000|58130000|8321c925-dea9-443d-b89c-3441f4eea312|b9d6e497-4d20-47ca-814f-f6b0dee5d028",
-        "silk_over_copper|111961207|53183411|475d65be-1e87-43a1-9de6-43729d6a4a38|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|111961207|58963411|e568ecb5-dba6-4259-b8f9-832f40541731|00000000-0000-0000-0000-000000000000",
+        "shorting_items|110195000|53330000|54617eb0-a35b-418f-9065-92fa7f0520c3|bb4f19be-cf4e-4d10-81f8-2f73dd5470b9",
+        "shorting_items|110195000|58130000|b9d6e497-4d20-47ca-814f-f6b0dee5d028|8321c925-dea9-443d-b89c-3441f4eea312",
+        "silk_over_copper|111593316|52677054|475d65be-1e87-43a1-9de6-43729d6a4a38|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|112000888|58885533|e568ecb5-dba6-4259-b8f9-832f40541731|00000000-0000-0000-0000-000000000000",
         "silk_overlap|99568000|29880000|ca2fddb9-40d1-4bfa-bc10-8abc0e34ee64|b9844f25-2876-440c-9fee-891588e1bcfb",
-        "solder_mask_bridge|110195000|53330000|bb4f19be-cf4e-4d10-81f8-2f73dd5470b9|54617eb0-a35b-418f-9065-92fa7f0520c3",
-        "solder_mask_bridge|110195000|58130000|8321c925-dea9-443d-b89c-3441f4eea312|b9d6e497-4d20-47ca-814f-f6b0dee5d028"
+        "solder_mask_bridge|110195000|53330000|54617eb0-a35b-418f-9065-92fa7f0520c3|bb4f19be-cf4e-4d10-81f8-2f73dd5470b9",
+        "solder_mask_bridge|110195000|58130000|b9d6e497-4d20-47ca-814f-f6b0dee5d028|8321c925-dea9-443d-b89c-3441f4eea312"
       ],
       "meta": {
         "version": 2
@@ -269,7 +269,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|190500|215900|60708b27-c3f8-4483-9f59-e7918495f9e5|f3dc4689-937f-4d83-9f74-b542a39d1067|/b0dcfc14-9606-45df-8d55-b7b091984c61|/b0dcfc14-9606-45df-8d55-b7b091984c61|/b0dcfc14-9606-45df-8d55-b7b091984c61"
+    ],
     "meta": {
       "version": 0
     },
@@ -532,7 +534,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "KRUPS-FemtoSat.csv",
+    "bom_export_filename": "..\\Documentation\\FemtoSat_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -545,7 +547,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -563,12 +565,12 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
+          "label": "Description",
+          "name": "Description",
           "show": true
         },
         {
@@ -576,6 +578,18 @@
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Part Number",
+          "name": "Digikey Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": false
         },
         {
           "group_by": true,
@@ -629,12 +643,6 @@
           "group_by": false,
           "label": "Mouser Price/Stock",
           "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
           "show": false
         }
       ],
