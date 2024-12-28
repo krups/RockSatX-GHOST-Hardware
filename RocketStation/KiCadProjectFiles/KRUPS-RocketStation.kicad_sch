@@ -5,8 +5,8 @@
 	(uuid "eb8e9f6e-dff9-49bd-9345-25f6373a07fe")
 	(paper "A4")
 	(title_block
-		(date "2024-12-27")
-		(rev "V3")
+		(date "2024-12-28")
+		(rev "V4")
 	)
 	(lib_symbols
 		(symbol "Connector:Raspberry_Pi_2_3"
@@ -4966,6 +4966,85 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -9290,9 +9369,9 @@
 		)
 		(uuid "86045dc9-742e-4633-b7f0-53d870ee2a9a")
 	)
-	(text "Mounting Holes"
+	(text "Mounting Holes & Fiducials"
 		(exclude_from_sim no)
-		(at 261.874 70.866 0)
+		(at 255.524 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10465,7 +10544,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 265.43 82.55 0)
+		(at 270.51 82.55 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10474,7 +10553,7 @@
 		(fields_autoplaced yes)
 		(uuid "02a76c2f-b3a5-41ee-8a84-179bba07b708")
 		(property "Reference" "H3"
-			(at 267.97 81.2799 0)
+			(at 273.05 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10483,7 +10562,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 267.97 89.9159 0)
+			(at 273.05 89.9159 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10493,7 +10572,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 265.43 88.646 0)
+			(at 270.51 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10502,7 +10581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 82.55 0)
+			(at 270.51 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10511,7 +10590,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 264.922 91.948 0)
+			(at 270.002 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10520,7 +10599,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 265.43 82.55 0)
+			(at 270.51 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13304,6 +13383,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 257.81 78.74 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c80408a-64f6-4624-980f-846b4abe6146")
+		(property "Reference" "FID2"
+			(at 260.35 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 260.35 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 257.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 257.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "KRUPS-RocketStation"
+				(path "/eb8e9f6e-dff9-49bd-9345-25f6373a07fe"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 88.9 34.29 0)
 		(mirror y)
@@ -13517,7 +13661,7 @@
 	(symbol
 		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
-		(at 265.43 76.2 0)
+		(at 270.51 76.2 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13526,7 +13670,7 @@
 		(fields_autoplaced yes)
 		(uuid "50f0d6a2-8a09-463a-935c-40cde784220d")
 		(property "Reference" "H1"
-			(at 267.97 74.9299 0)
+			(at 273.05 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13535,7 +13679,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 267.97 83.5659 0)
+			(at 273.05 83.5659 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13545,7 +13689,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
-			(at 265.43 82.296 0)
+			(at 270.51 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13554,7 +13698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 76.2 0)
+			(at 270.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13563,7 +13707,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 264.922 85.598 0)
+			(at 270.002 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13572,7 +13716,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 265.43 76.2 0)
+			(at 270.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14623,6 +14767,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 257.81 83.82 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c97cfcd-5c17-434d-9cb6-cfe50de46961")
+		(property "Reference" "FID3"
+			(at 260.35 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 260.35 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "KRUPS-RocketStation"
+				(path "/eb8e9f6e-dff9-49bd-9345-25f6373a07fe"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 275.59 127 0)
 		(unit 1)
@@ -15540,6 +15749,71 @@
 			(project "KRUPS-RocketStation"
 				(path "/eb8e9f6e-dff9-49bd-9345-25f6373a07fe"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 257.81 73.66 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8846ab24-37e9-4153-90b3-cf2d35072cc5")
+		(property "Reference" "FID1"
+			(at 260.35 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 260.35 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/eb8e9f6e-dff9-49bd-9345-25f6373a07fe"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -17380,7 +17654,7 @@
 	(symbol
 		(lib_name "MountingHole_2")
 		(lib_id "Mechanical:MountingHole")
-		(at 274.32 76.2 0)
+		(at 279.4 76.2 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17389,7 +17663,7 @@
 		(fields_autoplaced yes)
 		(uuid "b60eb9f1-4666-4532-bdba-595af51bf89e")
 		(property "Reference" "H2"
-			(at 276.86 74.9299 0)
+			(at 281.94 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17398,7 +17672,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 276.86 83.5659 0)
+			(at 281.94 83.5659 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17408,7 +17682,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 274.32 82.296 0)
+			(at 279.4 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17417,7 +17691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 76.2 0)
+			(at 279.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17426,7 +17700,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 273.812 85.598 0)
+			(at 278.892 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17435,7 +17709,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 274.32 76.2 0)
+			(at 279.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18808,7 +19082,7 @@
 	(symbol
 		(lib_name "MountingHole_3")
 		(lib_id "Mechanical:MountingHole")
-		(at 274.32 82.55 0)
+		(at 279.4 82.55 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -18817,7 +19091,7 @@
 		(fields_autoplaced yes)
 		(uuid "eeb80184-7d38-4bed-971e-12bf56f01f2e")
 		(property "Reference" "H4"
-			(at 276.86 81.2799 0)
+			(at 281.94 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18826,7 +19100,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 276.86 89.9159 0)
+			(at 281.94 89.9159 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18836,7 +19110,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 274.32 88.646 0)
+			(at 279.4 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18845,7 +19119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 82.55 0)
+			(at 279.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18854,7 +19128,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 273.812 91.948 0)
+			(at 278.892 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18863,7 +19137,7 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 274.32 82.55 0)
+			(at 279.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

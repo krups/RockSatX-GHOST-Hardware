@@ -8,8 +8,8 @@
 	)
 	(paper "A5")
 	(title_block
-		(date "2024-12-20")
-		(rev "V5")
+		(date "2024-12-28")
+		(rev "V6")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -268,7 +268,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "0.100in Pin Header, 02x02"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -281,11 +281,24 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37e97d53-5ff8-4968-8ef3-cfcda7f21848")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/d2fa3101-5671-4a85-9f04-559c457a0b45")
 		(sheetname "Root")
 		(sheetfile "KRUPS-FemtoSat.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 3.87 -1.33)
 			(end 3.87 3.87)
@@ -578,7 +591,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF, 10V, X5R, SMD 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -587,6 +600,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CL21A226MPQNNNE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c70255fe-b38f-42c2-877a-e12c63475433")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -791,7 +817,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -800,6 +826,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ded649a5-3bcb-432f-b7ff-28842380849c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1004,7 +1043,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TPS61023 Boost Converter"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1013,6 +1052,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "TPS61023DRLR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e32ca777-bb31-441a-830c-9ac90ecf8a7f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1281,7 +1333,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "3.9K OHM, 1%, 1/10W, SMD 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1290,6 +1342,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "ERJ-3EKF3901V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ff8b17e-bb48-4682-997e-930518374182")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1508,6 +1573,19 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e8914ae-24e9-4d8a-9d1b-809119b9aaa6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/40172fe8-1daa-4d1b-8337-1e2651e8f9a8")
 		(sheetname "Root")
@@ -1608,7 +1686,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF, 16V, X5R, SMD 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1617,6 +1695,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CL21A106KOQNNNG"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "526c603c-74c5-4940-940a-d034f0be4603")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1835,6 +1926,19 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb89aad2-83d3-4708-9986-a1d7625bc1f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/61cd357a-bac2-4a75-8bb5-02cad7172000")
 		(sheetname "Root")
@@ -2005,6 +2109,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "BME280"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c744322f-435c-434f-b844-72cd2da84dd6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2326,7 +2443,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED, 1.95V Vf, 20mA If, SMD 0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2335,6 +2452,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "APT1608SURCK"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66939ee4-ef42-42c7-9682-e1616596a02d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2561,7 +2691,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2570,6 +2700,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0a18a33-77db-4e9e-b8e0-bd18ca3a239d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2775,7 +2918,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF, 16V, X5R, SMD 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2784,6 +2927,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CL21A106KOQNNNG"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04548d09-431f-4d81-96b9-3073e783bdc8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3085,6 +3241,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd74ad15-03d3-40e9-a309-39a187fe7420")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "BNO086"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afa4e245-9eb9-43db-a6d3-14654d887f65")
 			(effects
 				(font
 					(size 1 1)
@@ -3588,7 +3757,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF, 10V, X5R, SMD 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3597,6 +3766,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CL21A226MPQNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e915e84-05d1-463d-bb07-57b2fe481628")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3802,7 +3984,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3811,6 +3993,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "113598b1-6fd5-4b78-94d2-e53e9531152f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4016,7 +4211,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF, 16V, X5R, SMD 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4025,6 +4220,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CL21A106KOQNNNG"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5da29a5f-7545-4ab4-981e-85c44b5c8599")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4229,7 +4437,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4238,6 +4446,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fca7c427-3232-47db-9620-197edf5b3617")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4443,7 +4664,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4452,6 +4673,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66e86ef7-52ae-4df4-abf7-fe54db5540af")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4657,7 +4891,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF, 10V, X5R, SMD 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4666,6 +4900,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CL21A226MPQNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df8a7e06-a9be-4744-9de3-097cc946099e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4871,7 +5118,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "5.1K OHM, 1%, 1/10W, SMD 0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4880,6 +5127,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "RC0603FR-075K1L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "376feaad-d3ec-4f2f-a8a9-2f111abddb2a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5084,7 +5344,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100K OHM, 1%, 1/10W, SMD 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5093,6 +5353,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "RMCF0603FT100K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a524ee49-ccad-49e3-a12a-418ca608ce40")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5243,6 +5516,121 @@
 			)
 		)
 	)
+	(footprint "Fiducial:Fiducial_0.5mm_Mask1mm"
+		(layer "F.Cu")
+		(uuid "5e2da13d-8e7f-4a84-8953-d4825cff4de8")
+		(at 114.046 31.242)
+		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+		(tags "fiducial")
+		(property "Reference" "FID2"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "85601510-bb75-4704-bcf4-1ad9038f8911")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "f1df07d8-30d4-479c-b4e7-2db16789b829")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "734a1070-389d-4879-9c8a-b3bed22dba87")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27cb90c1-a82f-47a7-8a11-087ce1573144")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fca5524-dc05-459e-ae3e-de6140dc4057")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/bcf9eee9-896c-43d3-bcec-be27a576ad51")
+		(sheetname "Root")
+		(sheetfile "KRUPS-FemtoSat.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "409ac134-b419-4934-aa60-1ab1d66a7cf7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "02202649-01f3-4943-885b-45da2892a8e4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4092f325-4d53-43a8-a64f-ceb0b9fa02bb")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.25)
+			(clearance 0.25)
+			(uuid "13ee977a-aa46-4103-ac88-60f1eacb029b")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5e60d42e-676f-43f5-aa69-6fb768d40489")
@@ -5298,7 +5686,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "73.2K OHM, 1%, 1/10W, SMD 0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5307,6 +5695,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "RC0603FR-0773K2L"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "812c8a84-650b-4eda-9511-d3541f18a78f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5525,6 +5926,19 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d226a246-ee7e-4c00-bf1d-081dd18ca50c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/9cf17292-0d72-4be2-b557-ebbdc5878e42")
 		(sheetname "Root")
@@ -5628,7 +6042,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF, 10V, X5R, SMD 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5637,6 +6051,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CL21A226MPQNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ca1aa88-dd57-470a-9e9c-86a94ace9482")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5842,7 +6269,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1uF, 16V, X7R, SMD 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5851,6 +6278,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "CC0603KRX7R7BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "189f6369-5ee7-4f33-b56c-8aaab5c73b16")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6069,6 +6509,19 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ea621fb-ff5e-4200-a382-3334f2ac2070")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/5b992e3f-ba5a-49be-a1db-35a643915c0c")
 		(sheetname "Root")
@@ -6135,7 +6588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-2"
+		(property "Value" "ESP32-S3-WROOM-1-N16R8"
 			(at 0 14.5 0)
 			(layer "F.Fab")
 			(uuid "94f0c2ae-9923-4620-bef5-addb19dec791")
@@ -6172,7 +6625,7 @@
 				)
 			)
 		)
-		(property "Description" "RF Module, 2.4 GHz, Wi­-Fi, Bluetooth, BLE, ESP32­-S3R8V"
+		(property "Description" "ESP32-S3 System on Module, 16MB Flash, 8MB PSRAM"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6181,6 +6634,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "ESP32-S3-WROOM-1-N16R8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce58f51a-531d-472e-b2f7-88761d5283d4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6880,6 +7346,19 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddbeed19-4b75-4da9-bf3b-5619c573e990")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/6bb63309-9f2a-478c-8710-ed78f3a67eb5")
 		(sheetname "Root")
@@ -7134,7 +7613,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "3.9K OHM, 1%, 1/10W, SMD 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7143,6 +7622,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "ERJ-3EKF3901V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1374a980-f95a-4baf-90dd-ae36aff7a422")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7361,6 +7853,19 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c56f037-8a10-49d4-9fdc-85b852689912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/33527123-414e-413b-abb4-51ec1140c476")
 		(sheetname "Root")
@@ -7463,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "5.1K OHM, 1%, 1/10W, SMD 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7472,6 +7977,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "RC0603FR-075K1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6e86091-1c91-4e85-a4b3-0860ffab7c1f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7685,6 +8203,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "AZ1117CR2-3.3TRG1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcd00492-b0b7-4424-a4cd-9698cc718613")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7981,6 +8512,19 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "917a0514-7275-47f1-abd2-1c707813c686")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/4f8f6e28-668c-4be7-bcb3-7ee98ff943b8")
 		(sheetname "Root")
@@ -8245,6 +8789,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "USB4110-GF-A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "924efe60-466b-4837-ba5f-c14928179aea")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8861,7 +9418,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10K OHM, 1%, 1/10W, SMD 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8870,6 +9427,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "RC0603FR-0710KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "035460d5-a931-49bc-a2e3-dad168f585b0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9020,6 +9590,121 @@
 			)
 		)
 	)
+	(footprint "Fiducial:Fiducial_0.5mm_Mask1mm"
+		(layer "F.Cu")
+		(uuid "a2e764ff-7e90-4ccd-afb7-ae42551dc8ef")
+		(at 108.458 91.948)
+		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+		(tags "fiducial")
+		(property "Reference" "FID1"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2aaa0950-1d7e-40ac-a960-5943ca07a919")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "e9488042-1387-45ca-85cc-e162471b3a94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9adf26f7-a608-4b5b-bd12-36639a2ba377")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50381025-e87a-456c-bb21-6e02e19e0db0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43bb2ac4-c3c0-44c6-89f3-93e4c50a6ad1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/a713631c-52f3-4eef-b92d-d6588470ae90")
+		(sheetname "Root")
+		(sheetfile "KRUPS-FemtoSat.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b9a9e079-efe7-47bc-9db7-9778c34faacd")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "3b11c9f7-9688-47c8-8d08-53279db069b9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "35ecae4f-30e7-435f-9df5-0ba110d88e21")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.25)
+			(clearance 0.25)
+			(uuid "6c00687b-34de-4377-984d-bb3ffb2df226")
+		)
+	)
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "a4dd3845-947e-4c67-9444-acd66a7d6e07")
@@ -9074,7 +9759,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PMOSFET, SOIC-8"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9083,6 +9768,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "IRF7410TRPBF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f227bb0f-ecb7-4ae8-92b3-6028d38e6826")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9399,6 +10097,19 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "608b25fd-c3cb-4a49-90fb-5843daecbdb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/17098e72-b141-416e-ab77-8d7cb7773792")
 		(sheetname "Root")
@@ -9500,7 +10211,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "68 OHM, 5%, 1/10W, SMD 0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9509,6 +10220,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "RC0603JR-0768RL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f13a46b5-54c9-4b08-9ffb-5b4aecae201a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9713,7 +10437,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST-VH 2 Pin Connector, Shielded, Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9722,6 +10446,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "B2P-VH-FB-B"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b971c99-fc97-4444-8b8c-cb5340068132")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10127,7 +10864,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, push-to-open, generic, two pins"
+		(property "Description" "SPDT Push Switch, Non-Latching"
 			(at 0 -9 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10135,6 +10872,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "LC1258OANP"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b724036-0c86-4b9d-b743-10190223c3bf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10562,7 +11312,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST-VH 2 Pin Connector, Horizontal"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10571,6 +11321,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "B2PS-VH"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ed7589b-9f93-4a6c-b6b7-9315c1539ccd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11231,7 +11994,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "68 OHM, 5%, 1/10W, SMD 0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11240,6 +12003,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "RC0603JR-0768RL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c7de51e-40a3-477d-aa9c-fb89901b5f47")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11445,7 +12221,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10K OHM, 1%, 1/10W, SMD 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11454,6 +12230,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcc1fa25-cbde-420a-b1cc-d8f5ae2c9a2a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11658,7 +12447,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED, 1.95V Vf, 20mA If, SMD 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11667,6 +12456,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "APT1608SURCK"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3b05c24-7725-4f84-8a5f-c6b920f18a23")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11894,7 +12696,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "100K OHM, 1%, 1/10W, SMD 0603"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11903,6 +12705,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "RMCF0603FT100K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0af1c4f5-d9b2-4ae9-ab15-05c6de8ead37")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12107,7 +12922,7 @@
 				)
 			)
 		)
-		(property "Description" "XEL4030-102MEC"
+		(property "Description" "1uH Inductor, Shielded"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12116,6 +12931,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "XEL4030-102MEC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dca1697f-25f7-44c9-80f9-66b2a66e4168")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12333,6 +13161,19 @@
 				)
 			)
 		)
+		(property "Digikey Part Number" "TSR 2-2450"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b44be171-3a3c-41e3-90b7-462f6d496827")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Converter*DCDC*TRACO*TSR?1*")
 		(path "/d64bfaa5-ddc0-4dfd-b289-b5458b6197f4")
 		(sheetname "Root")
@@ -12544,6 +13385,121 @@
 			)
 		)
 	)
+	(footprint "Fiducial:Fiducial_0.5mm_Mask1mm"
+		(layer "F.Cu")
+		(uuid "ea2f5b79-b9d7-4381-9a7e-e44d6ca6a19e")
+		(at 101.092 55.118)
+		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+		(tags "fiducial")
+		(property "Reference" "FID3"
+			(at 0 -1.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a4d310c8-37da-42db-a624-b1064b1e036c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "ffda3f13-b008-4bb0-a134-3a77568dd8ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08339183-6fe3-4697-ab37-eddb2fa6eaec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1ea4150-19ee-4c7d-af05-1c89ef9978c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b144fb5-4835-427d-8060-8338c109888e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/fdae9036-849a-4bf7-839d-d72f96a6bca6")
+		(sheetname "Root")
+		(sheetfile "KRUPS-FemtoSat.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "6f232499-89b0-4c0f-a269-d35148d14cb6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "fbce67a3-04ee-400f-a86a-89d8a5749774")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a7ca438d-5e99-4931-820e-b8b70ccac3e0")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(solder_mask_margin 0.25)
+			(clearance 0.25)
+			(uuid "e89ec6be-41c0-4793-a436-ef289358a47d")
+		)
+	)
 	(footprint "Package_TO_SOT_SMD:SOT-583-8"
 		(layer "F.Cu")
 		(uuid "f7aec237-08b6-46ce-a263-eb54bf80a7b4")
@@ -12609,6 +13565,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "TPS2117DRLR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5565221e-818d-4040-990d-187abae8f43e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12910,7 +13879,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100uF, 6.3V, X5R. SMD 1206"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12919,6 +13888,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey Part Number" "CL31A107MQHNNWE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c7803090-f3fd-4c36-8519-918074e1ec1f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -13143,6 +14126,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "13073d5f-7c83-4818-b9c8-57cd369418ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e0af7747-2297-4fd1-9222-625455b270e8")
 		(sheetname "Root")
@@ -13304,11 +14301,25 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2W LoRa Module"
 			(at 0 0 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7b95f1d3-f5ac-4c2d-a72d-1804c144003d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey Part Number" "ORDER SEPERATELY"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "95872234-9f72-43d3-aa95-5d150dfad26c")
 			(effects
 				(font
 					(size 1 1)
@@ -15468,7 +16479,7 @@
 		(layer "Edge.Cuts")
 		(uuid "58f8f57e-7fb0-4e17-a62b-fcf884c999d0")
 	)
-	(gr_text "KRUPS-FEMTOSAT\nV5 | 12-27-2024\nSERIAL NUMBER:"
+	(gr_text "KRUPS-FEMTOSAT\nV6 | 12-28-2024\nSERIAL NUMBER:"
 		(at 112.776 28.956 0)
 		(layer "B.SilkS")
 		(uuid "0ab630bd-2f37-4aef-af16-09d8afffc7e6")
