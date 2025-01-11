@@ -638,7 +638,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Digikey Part Number",
           "name": "Digikey Part Number",
           "show": true
