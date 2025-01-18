@@ -1,4 +1,4 @@
-# KRUPS-FemtoSat
+# KRUPS-RocketStation
 PCB design files and documentation for the base station/rocket station used in the University of Kentucky's 2025 RockSat-XG KRUPS payload
 
 ### PCB Render
