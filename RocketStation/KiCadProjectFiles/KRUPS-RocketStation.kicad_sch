@@ -18007,7 +18007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "CL31A107MQHNNWE"
+		(property "Digikey Part Number" "A768MS107M1JLAV027"
 			(at 33.02 30.48 0)
 			(effects
 				(font
@@ -19358,7 +19358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "A768MS107M1JLAV027"
+		(property "Digikey Part Number" "CL31A107MQHNNNE"
 			(at 19.05 166.37 0)
 			(effects
 				(font
