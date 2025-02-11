@@ -5,26 +5,23 @@ PCB design files and documentation for the femto-satellites used in the Universi
 <img src="Documentation/pcbtop.png" width="25%"><img src="Documentation/pcbbottom.png" width="25%">
 
 ### Components
-- [ESP32-S3-WROOM-1 (16MB Flash, 8MB PSRAM)](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
-- [EBYTE E22-900M33S 2W 868/915MHz LoRa Modem](https://www.cdebyte.com/pdf-down.aspx?id=2954)
+- [Raspberry Pi Pico 2 W (4MB Flash)](https://datasheets.raspberrypi.com/picow/pico-2-w-datasheet.pdf)
+- [Fanstel LR62XE 1W 868/915MHz LoRa Modem](https://static1.squarespace.com/static/561459a2e4b0b39f5cefa12e/t/63ddc4b1dd728b424f1a6c23/1675478197953/LR62E_LR62XE_M262X840XE_Product+Specifications.pdf)
 - [BME280 Temperature, Pressure, Humidity Sensor](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf)
 - [BNO086 9-Axis IMU](https://www.mouser.com/datasheet/2/1480/BNO080_085_Datasheet-3196201.pdf)
 
 ### Pin Mapping
 | ESP32-S3 GPIO Pin | Net Name |
 | --- | --- |
-| IO1 | LORA_TXEN |
-| IO2 | LORA_RXEN |
-| IO3 | SPI_NSS |
-| IO4 | BNO086_HINTN |
-| IO5 | BNO086_RESET (active low)|
-| IO6 | I2C_SCL |
-| IO7 | I2C_SDA |
-| IO9 | SPI_CLK |
-| IO10 | SPI_MOSI |
-| IO11 | SPI_MISO |
-| IO12 | LORA_RESET (active low)|
-| IO13 | LORA_BUSY |
-| IO14 | LORA_DIO1 |
-| IO21 | LORA_DIO2 |
-| IO38 | GPIO_LED |
+| GPIO6 | BNO086_HINTN |
+| GPIO7 | BNO086_RESET (active low)|
+| GPIO8 | I2C_SDA |
+| GPIO9 | I2C_SCL |
+| GPIO16 | SPI_MISO |
+| GPIO17 | SPI_NSS |
+| GPIO18 | SPI_CLK |
+| GPIO19 | SPI_MOSI |
+| GPIO20 | LORA_ANTSW |
+| GPIO21 | LORA_RESET (active low)|
+| GPIO22 | LORA_BUSY |
+| GPIO26 | LORA_DIO1 |
