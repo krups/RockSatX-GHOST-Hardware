@@ -11,7 +11,7 @@ PCB design files and documentation for the femto-satellites used in the Universi
 - [BNO086 9-Axis IMU](https://www.mouser.com/datasheet/2/1480/BNO080_085_Datasheet-3196201.pdf)
 
 ### Pin Mapping
-| ESP32-S3 GPIO Pin | Net Name |
+| Pico 2 W GPIO Pin | Net Name |
 | --- | --- |
 | GPIO6 | BNO086_HINTN |
 | GPIO7 | BNO086_RESET (active low)|

@@ -59,12 +59,30 @@
         }
       ],
       "drc_exclusions": [
-        "silk_edge_clearance|131290000|22132500|0e789979-0b55-406f-8075-087902da544c|79e341be-c87f-47ba-8447-4c26dccbac6f",
-        "silk_edge_clearance|131290000|22132500|0e789979-0b55-406f-8075-087902da544c|f3724ca4-b99f-4b06-8fbd-696c07075aee",
-        "silk_edge_clearance|139510000|22132500|0e789979-0b55-406f-8075-087902da544c|56ccc2f4-d182-4062-807f-d3a67d5f6248",
-        "silk_over_copper|121753650|44005192|01614029-4bf6-4886-a0b1-b54465711a35|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|126970734|65454088|77c6940f-eb2f-4297-a8db-ee5998f8f62d|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|127011948|72543077|d3b78cbd-8e99-4d4a-be34-84be92d94c88|00000000-0000-0000-0000-000000000000"
+        [
+          "silk_edge_clearance|131290000|22132500|0e789979-0b55-406f-8075-087902da544c|79e341be-c87f-47ba-8447-4c26dccbac6f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|131290000|22132500|0e789979-0b55-406f-8075-087902da544c|f3724ca4-b99f-4b06-8fbd-696c07075aee",
+          ""
+        ],
+        [
+          "silk_edge_clearance|139510000|22132500|0e789979-0b55-406f-8075-087902da544c|56ccc2f4-d182-4062-807f-d3a67d5f6248",
+          ""
+        ],
+        [
+          "silk_over_copper|121753650|44005192|01614029-4bf6-4886-a0b1-b54465711a35|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|126970734|65454088|77c6940f-eb2f-4297-a8db-ee5998f8f62d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|127011948|72543077|d3b78cbd-8e99-4d4a-be34-84be92d94c88|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
       ],
       "meta": {
         "version": 2
@@ -76,16 +94,19 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -96,9 +117,11 @@
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -113,7 +136,9 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -126,6 +151,7 @@
         "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.381,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.127,
         "min_hole_to_hole": 0.127,
         "min_microvia_diameter": 0.508,
@@ -143,10 +169,11 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
@@ -244,6 +271,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -477,7 +505,7 @@
   },
   "meta": {
     "filename": "KRUPS-RocketStation.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -492,6 +520,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -500,7 +529,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
