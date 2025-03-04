@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KRUPS_Footprints")(type "KiCad")(uri "${KIPRJMOD}/KRUPS_Footprints.pretty")(options "")(descr ""))
+  (lib (name "PCF8574")(type "KiCad")(uri "C:/Users/cdawg/Downloads/PCF8574.pretty")(options "")(descr ""))
+)
