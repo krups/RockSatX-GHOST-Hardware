@@ -1,0 +1,6 @@
+[submodule "FemtoSat/VerificationProgram/lib/BNO08x_Pico_Library"]
+	path = FemtoSat/VerificationProgram/lib/BNO08x_Pico_Library
+	url = https://github.com/robotcopper/BNO08x_Pico_Library.git
+[submodule "FemtoSat/VerificationProgram/lib/RadioLib"]
+	path = FemtoSat/VerificationProgram/lib/RadioLib
+	url = https://github.com/jgromes/RadioLib.git
