@@ -5,8 +5,8 @@
 	(uuid "6241326a-b012-42a4-9d28-e009e6f6a957")
 	(paper "A3")
 	(title_block
-		(title "KRUPS Flight Computer")
-		(date "2025-02-20")
+		(title "KRUPS Flight Computer - RockSat XG")
+		(date "2025-04-20")
 	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det2"
@@ -6782,14 +6782,13 @@
 		)
 		(uuid "1181286e-e5c0-4119-b598-3eef61e22be9")
 	)
-	(text "ADDR=0x67"
+	(text "TC1\nADDR=0x60"
 		(exclude_from_sim no)
-		(at 331.724 190.754 0)
+		(at 336.55 189.484 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
 		(uuid "15cf4475-5b8d-4a3b-81db-b2b08f4a413a")
 	)
@@ -6804,14 +6803,13 @@
 		)
 		(uuid "25e228e4-7cf1-4f73-baae-03b87e3bb1fe")
 	)
-	(text "ADDR=0x63"
+	(text "TC3\nADDR=0x63"
 		(exclude_from_sim no)
-		(at 331.724 125.984 0)
+		(at 336.042 124.714 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
 		(uuid "2e2818a5-3c02-419c-8d67-4d0595d9681e")
 	)
@@ -6885,14 +6883,13 @@
 		)
 		(uuid "41665bd2-046d-462b-b740-1ef9775d0240")
 	)
-	(text "ADDR=0x62"
+	(text "TC4\nADDR=0x65"
 		(exclude_from_sim no)
-		(at 331.724 92.964 0)
+		(at 336.55 91.948 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
 		(uuid "470d77b0-175f-4e57-9cb9-b5e0b5435530")
 	)
@@ -6991,14 +6988,13 @@
 		)
 		(uuid "6813fbfa-9e15-4d50-aff0-e10c0b5b2a06")
 	)
-	(text "ADDR=0x64"
+	(text "TC2\nADDR=0x64"
 		(exclude_from_sim no)
-		(at 331.724 157.734 0)
+		(at 336.296 156.718 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
 		(uuid "6caf2d33-cd2a-4ead-b1b8-b11c79cbdae0")
 	)
@@ -7026,14 +7022,13 @@
 		)
 		(uuid "6f98856e-da47-4557-90da-488fa004b8c2")
 	)
-	(text "ADDR=0x61"
+	(text "TC5\nADDR=0x61"
 		(exclude_from_sim no)
-		(at 331.724 61.214 0)
+		(at 336.296 60.198 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
 		(uuid "7283d681-bc2b-48e5-9b72-74c197c47854")
 	)
@@ -7202,14 +7197,13 @@
 		)
 		(uuid "e8804629-c057-4be8-b315-0323e03ca70c")
 	)
-	(text "ADDR=0x60"
+	(text "TC6\nADDR=0x62"
 		(exclude_from_sim no)
-		(at 331.724 28.194 0)
+		(at 336.296 27.178 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
 		(uuid "eb163adb-c7c0-4451-93ea-46ee9ceaabff")
 	)
@@ -7310,6 +7304,12 @@
 		(uuid "3c9e5b08-0f79-4157-81fc-f18fb6194e1c")
 	)
 	(junction
+		(at 303.53 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d9c7772-38f6-49c0-a162-01ea145cf71f")
+	)
+	(junction
 		(at 358.14 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7350,6 +7350,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "510ef1de-3402-4a96-aa60-e48730c59db7")
+	)
+	(junction
+		(at 303.53 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53d34853-e646-4cce-8d47-ccccecbb45e7")
 	)
 	(junction
 		(at 229.87 69.85)
@@ -7472,6 +7478,12 @@
 		(uuid "be6db7d3-0354-457a-842c-c01204224ff6")
 	)
 	(junction
+		(at 312.42 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c551b799-fc2d-4494-ba4c-4f067095e54c")
+	)
+	(junction
 		(at 166.37 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7488,6 +7500,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceaf6078-8b7d-49a5-8e99-9eac6f04fe5f")
+	)
+	(junction
+		(at 312.42 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cedb7d99-391e-4d16-aa95-ff5b481b9f19")
 	)
 	(junction
 		(at 358.14 128.27)
@@ -8787,6 +8805,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 207.01) (xy 303.53 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fd08d6-010d-41e3-ac35-93789ab6aaf9")
+	)
+	(wire
+		(pts
 			(xy 317.5 200.66) (xy 317.5 198.12)
 		)
 		(stroke
@@ -8967,6 +8995,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 115.57) (xy 311.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f006867-3fae-4248-99cd-184ddd661ae8")
+	)
+	(wire
+		(pts
 			(xy 311.15 74.93) (xy 312.42 74.93)
 		)
 		(stroke
@@ -9124,6 +9162,16 @@
 			(type default)
 		)
 		(uuid "5a8bd354-018a-4ed7-8d5e-d1c37fd88520")
+	)
+	(wire
+		(pts
+			(xy 312.42 109.22) (xy 312.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a96287a-7dcd-4675-a120-80af1ad04749")
 	)
 	(wire
 		(pts
@@ -10447,6 +10495,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 213.36) (xy 312.42 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6db8137-fad3-486c-b857-a887b792ce5d")
+	)
+	(wire
+		(pts
 			(xy 312.42 173.99) (xy 312.42 171.45)
 		)
 		(stroke
@@ -10494,6 +10552,16 @@
 			(type default)
 		)
 		(uuid "a9376c6e-c07f-48b0-802b-bf7b4c86cc47")
+	)
+	(wire
+		(pts
+			(xy 303.53 109.22) (xy 303.53 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9d709e-eff8-4e92-905f-34a1acb655f7")
 	)
 	(wire
 		(pts
@@ -11034,6 +11102,16 @@
 			(type default)
 		)
 		(uuid "d0c1b3c4-aad3-47dd-abc3-3013a429b019")
+	)
+	(wire
+		(pts
+			(xy 312.42 213.36) (xy 312.42 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d115d8f5-b959-4d68-82b3-0da8e501e637")
 	)
 	(wire
 		(pts
@@ -14114,7 +14192,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "112cae11-8f18-4e01-8449-441becd80843")
 		(property "Reference" "R16"
 			(at 307.34 113.538 90)
@@ -18330,7 +18408,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "50d8e769-59d6-43d1-b1b3-8893c724873d")
 		(property "Reference" "R29"
 			(at 307.34 200.152 90)
@@ -18863,7 +18941,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "591b6d66-bb2c-41f5-83de-7b42a6a82e6a")
 		(property "Reference" "R30"
 			(at 307.34 211.328 90)
@@ -19355,6 +19433,74 @@
 			(project "KRUPS-KiCad"
 				(path "/6241326a-b012-42a4-9d28-e009e6f6a957"
 					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 307.34 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d79f724-903a-4adc-8da2-e84845ae48c3")
+		(property "Reference" "R31"
+			(at 307.34 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "22k"
+			(at 314.452 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 307.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae4883cc-de2c-4b37-9bfc-859be2b5f904")
+		)
+		(pin "1"
+			(uuid "74363b90-6e23-42eb-8938-ca984f2d5209")
+		)
+		(instances
+			(project ""
+				(path "/6241326a-b012-42a4-9d28-e009e6f6a957"
+					(reference "R31")
 					(unit 1)
 				)
 			)
