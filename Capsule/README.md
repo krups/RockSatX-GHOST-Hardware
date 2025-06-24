@@ -2,7 +2,7 @@
 PCB design files and documentation for the re-entry capsule used in the University of Kentucky's 2025 RockSat-XG KRUPS payload
 
 ### PCB Render
-
+<img src="Documentation/KRUPS-Capsule.png">
 
 ### Components
 - [Raspberry Pi Pico 2 W (4MB Flash)](https://datasheets.raspberrypi.com/picow/pico-2-w-datasheet.pdf)
